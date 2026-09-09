@@ -12,6 +12,17 @@ pageClass: compare-page
 
 本页对比手机或平板进行**远程开发**时最常被一起评估的工具——从 Termius、Blink Shell 这类 SSH 客户端，到 Redock、ServerCC、Moshi 这类 Agent 感知终端，再到 Orca 这类 Agent 编排环境，以及 NimoteCode 所围绕的完整**移动开发工作区**。本页的目的是帮你选对类别，而不是宣布某个产品胜出：这些产品解决的问题并不相同，正确答案取决于你的工作流。
 
+一个有用的思路，是把这些工具看作移动开发栈的不同层次：
+
+**SSH Client → AI Agent Terminal → Agent Development Environment → Full Mobile Workspace**
+
+- **SSH Client** —— Termius、Blink Shell
+- **AI Agent Terminal** —— Redock、Moshi、ServerCC
+- **Agent Development Environment** —— Orca
+- **Full Mobile Workspace** —— NimoteCode
+
+这个框架描述的是各产品把重心放在哪里，而不是严格排名——有些工具跨越多个层次，正确的选择仍然取决于你的工作真正发生在哪里。
+
 如果你想评估某一次具体的切换，[Termius 替代品](/zh/termius-alternative)、[Blink Shell 替代品](/zh/blink-shell-alternative)、[移动 IDE](/zh/mobile-ide)与 [SSH IDE](/zh/ssh-ide) 这几页会针对具体场景展开。想开始配置，请先看[文档](/zh/docs)或[下载 NimoteCode](/zh/download)。
 
 <MobileDevToolComparison lang="zh" />

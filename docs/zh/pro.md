@@ -1,25 +1,25 @@
 ---
-title: NimoteCode Pro | 进阶移动开发工作流
-description: NimoteCode Pro 每月 $3.99 或每年 $39.99，解锁 Git 写入、多终端、AI Agent 与远程搜索、LSP、调试和 Sync/Cache。
+title: NimoteCode Pro 价格 | 14 天免费试用，每月 $3.99
+description: NimoteCode 价格。先用 14 天免费试用 Pro，之后按每月 $3.99 或每年 $39.99 订阅。免费版包含本地与 SSH 工作区、编辑器、终端与 AI Chat。
+pageClass: pricing-page
 ---
 
 # NimoteCode Pro
 
-NimoteCode 免费版可打开项目、编辑文件、使用基础终端与 AI Chat。**Pro 每月 $3.99 或每年 $39.99**，面向需要完成完整移动开发闭环的任务：受限 Git 写入、AI 辅助、更深入的诊断，以及多个终端上下文。
-
-## Pro 解锁内容
-
-| 工作流 | Pro 能力 | 使用价值 |
-| --- | --- | --- |
-| Git 交付 | 提交、推送和 stash 等受限 Git 写入工作流 | 先免费查看状态、diff 与历史，再在移动端完成聚焦改动。 |
-| 并行工作 | 进阶多终端组织 | 同时保留日志、测试与服务 Shell。 |
-| AI 与搜索 | AI Agent 和远程内容搜索 | 在试用结束后继续使用受限工作流。 |
-| 代码智能 | LSP 诊断与代码动作 | 处理已配置语言服务的反馈。 |
-| 运行时诊断 | Debug 会话、断点、调用栈、变量与 Watch | 检查已配置的远程调试目标。 |
-| 项目传输 | Sync / Cache | 通过明确方向与路径检查移动内容。 |
-
-免费版仍可充分体验核心工作区：本地或 SSH 项目、编辑、终端、AI Chat 和基础 Tasks。新用户可获得按设备计算的 14 天 Pro 试用，用于体验 Agent、远程搜索及其他受限工作流。AI 采用 BYOK：模型访问和计费由你的 Provider 账户决定。
-
-Pro 并不替代命令、diff 或 AI 结果的人工审查，尤其是在生产相关环境中。
+NimoteCode 可免费开始使用：在免费版中打开本地或 SSH 项目、编辑文件、运行命令并使用 AI Chat。**所有 Pro 工作流都支持 14 天免费试用** —— AI Agent、远程搜索、多终端、Git 写入、LSP、调试与同步 —— 之后只有当移动端工作需要完整交付闭环时再升级。
 
 <PricingFeatureSystem lang="zh" mode="full" />
+
+## 为什么选择 Pro
+
+Pro 服务于那些移动端工作必须以严谨结果收尾的时刻：核对 diff 后进行受控 Git 提交、同时维护多个终端上下文、处理已配置的 LSP 反馈、启动调试会话，或交给 AI Agent 一个多步骤任务。它不会替代对命令、diff 或 AI 结果的人工审查，尤其是在生产相关环境中。
+
+有关订阅验证、恢复购买与访问行为，请查看[账户与订阅](/zh/docs/account-subscription)。
+
+<div class="seo-cta">
+  <p><strong>从免费版开始 —— 免费解锁 Pro 14 天。</strong></p>
+  <p class="seo-cta-actions">
+    <a href="/zh/download?utm_source=pro&utm_medium=website&utm_campaign=download" class="home-page-btn primary">下载 NimoteCode</a>
+    <a href="/zh/features?utm_source=pro&utm_medium=website&utm_campaign=feature_map" class="home-page-btn secondary">查看全部功能</a>
+  </p>
+</div>

@@ -5,7 +5,7 @@ description: "Explore NimoteCode’s mobile development capabilities: local and 
 
 # NimoteCode Features
 
-NimoteCode keeps the essential development loop in one mobile workspace: **Explorer → Editor → Preview → Terminal → Git → AI**. Choose only the tools a task needs, while keeping the project context intact.
+NimoteCode keeps the essential development loop in one mobile workspace: **Explorer → Editor → Preview → Terminal → Git → AI**. This page lists what every feature does and whether it is included in the free tier or requires Pro.
 
 <div class="feature-showcase" role="region" aria-label="NimoteCode feature highlights">
   <div class="feature-showcase__track">
@@ -18,30 +18,33 @@ NimoteCode keeps the essential development loop in one mobile workspace: **Explo
   </div>
 </div>
 
-## Core workspace
+## Everything you get for free
 
-| Module | What it helps you do | Access |
+The free tier is a full workspace, not a preview. Everything below works without a Pro subscription unless marked **Pro**.
+
+| Feature | What it gives you | Access |
 | --- | --- | --- |
-| Explorer + SSH | Open a local project or connect to a saved remote SSH workspace with password or key authentication. | Free |
-| Editor | Work in tabs or split panes, save changes, preview images and supported media, use clipboard and undo/redo, follow cursor position and open structural context when available. | Free |
-| Web Preview | Open a local or remote web project inside the app, including directly from a URL in Terminal. | Available in the current release |
-| Terminal | Run commands in the active workspace, search output, use shortcuts and recover after a remote reconnect. | Free |
-| AI Chat | Explain code, inspect error output and plan the next change with current-file context, recent tasks and visible active-Agent status. | Free |
-| AI Agent | Assist a controlled multi-step workflow involving files, terminal and Git tools. | 14-day trial · Pro |
+| **Local & SSH workspaces** | Open a local project, or connect to a saved remote SSH workspace with password or key authentication. | Free |
+| **Code editor** | Tabs or split panes, save, preview images and supported media, clipboard, undo/redo, cursor tracking and structural context. | Free |
+| **Web & media preview** | Open a local or remote web project in-app, including directly from a URL in the Terminal. | Free |
+| **Terminal** | Run commands in the active workspace, search output, use shortcuts and recover after a remote reconnect. | Free |
+| **Git review** | Inspect repository status, diffs, branch state and history. | Free |
+| **AI Chat** | Explain code, inspect error output and plan the next change with current-file, task and Agent context. | Free |
+| **Tasks** | Save repeated remote commands, group them and run them from the workspace. | Free |
 
-## Deliver, diagnose and automate
+## Pro features
 
-<div class="product-card-grid">
-  <div class="product-card"><strong>Source Control</strong><span>Review repository status, diffs and history for free. Pro unlocks Git write workflows such as commit, push and stash actions.</span></div>
-  <div class="product-card"><strong>Multi-terminal · Pro</strong><span>Keep parallel contexts for logs, tests, services and deployment work without leaving the workspace.</span></div>
-  <div class="product-card"><strong>LSP + Debug · Pro</strong><span>Use configured remote language-server and debug-adapter workflows for diagnostics, code actions, breakpoints and runtime inspection.</span></div>
-  <div class="product-card"><strong>Tasks</strong><span>Save repeated remote commands, organize them by group and follow their terminal-backed execution.</span></div>
-  <div class="product-card"><strong>Sync / Cache · Pro</strong><span>Move project content between local and remote workspaces with explicit direction, path boundaries and history.</span></div>
-</div>
+A 14-day, per-device Pro trial unlocks every Pro feature below. Pro adds:
 
-## New in 1.1.5
-
-The current release makes more of the development loop visible without leaving the workspace: preview local or remote web projects in-app, keep two files open side by side, inspect images and play supported media, and follow active Agent work across panels. It also improves SSH connection reuse, mobile terminal input, Git refresh and diff rendering, long-session resource use, and interface consistency. See the [release notes](/releases/) for the complete change list.
+| Feature | What it gives you | Access |
+| --- | --- | --- |
+| **AI Agent** | Controlled multi-step workflows across files, terminal and Git tools. | Trial · Pro |
+| **Git write** | Commit, push and stash, plus branch/checkout/merge actions — with review before you act. | Trial · Pro |
+| **Remote search** | Global content search across a remote workspace. | Trial · Pro |
+| **Multi-terminal** | Keep parallel sessions for logs, tests, services and deployments. | Trial · Pro |
+| **LSP** | Configured remote language-server diagnostics, code actions and navigation. | Trial · Pro |
+| **Debugger** | Breakpoints and runtime inspection through a configured debug adapter. | Trial · Pro |
+| **Sync / Cache** | Move project content between local and remote workspaces with explicit direction and history. | Trial · Pro |
 
 ## A practical way to use the features
 
@@ -52,3 +55,7 @@ The current release makes more of the development loop visible without leaving t
 5. Use [Source Control](/docs/source-control) to review the result; Pro is required when the delivery step needs a gated Git write action.
 
 > Features are deliberately permission- and environment-aware. For example, LSP and Debug depend on the language server or debug adapter being set up on the remote host, and AI output should be reviewed before use on sensitive systems.
+
+## Explore the SSH workflow
+
+If you are evaluating how these features fit an SSH session, see the [Android SSH client](/android-ssh-client) workflow, compare [SSH clients](/blog/best-ssh-clients), or read the [SSH IDE overview](/ssh-ide) for the full remote development loop.

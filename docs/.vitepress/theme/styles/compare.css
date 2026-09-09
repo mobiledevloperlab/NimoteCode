@@ -271,6 +271,13 @@
   font-size: 0.75rem;
 }
 
+/* Methodology ------------------------------------------------------------- */
+.vp-doc .cmp-methodology-reviewed {
+  color: var(--nimote-text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 /* Conversion + disclaimer ------------------------------------------------ */
 .vp-doc .cmp-cta {
   margin: 36px 0;

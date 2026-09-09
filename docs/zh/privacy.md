@@ -41,8 +41,9 @@ description: 了解 NimoteCode 如何处理账户数据、订阅、工作区设�
 
 SSH 密码处理说明：
 
-- SSH 密码仅在连接/认证过程中于内存中使用。
-- SSH 密码**不会**持久化保存到本地连接配置中。
+- SSH 密码仅用于验证您发起的连接。
+- SSH 密码**不会**保存在您的本地连接配置（连接设置）中。
+- 若您在应用中选择“记住密码”，密码会保存在设备的系统安全存储（iOS Keychain 或 Android Keystore）中；您可随时通过删除已保存的 SSH 配置或连接来移除。
 
 ### 2.4 AI 配置与 AI 请求数据
 
@@ -89,12 +90,20 @@ NimoteCode 在以下场景依赖第三方服务：
 
 ## 5. 权限与设备访问
 
-根据平台和功能，应用可能使用如下权限：
+NimoteCode 不会申请访问照片、相机、麦克风、通讯录或精确定位等敏感设备数据。由于 Android 与 iOS 的权限模型不同，以下分别列出我们声明的权限：
 
-- 网络权限（`INTERNET`）：用于远程开发、认证、订阅校验、AI 通信
-- 计费权限（Google Play Billing）：用于订阅购买
-- Android 存储相关权限：用于文件与工作区操作
-- Android 前台服务权限：用于长时间活动工作流
+**Android 平台**，应用在其清单中声明了有限的权限：
+
+- `INTERNET` 与 `ACCESS_NETWORK_STATE`：用于远程开发、认证、订阅校验、AI 通信
+- `com.android.vending.BILLING`：用于 Google Play 订阅购买
+- `com.google.android.gms.permission.AD_ID`：由应用使用的 Google 服务库（Firebase Analytics / Google 登录）声明
+- `READ_EXTERNAL_STORAGE` 与 `WRITE_EXTERNAL_STORAGE`：仅适用于 Android 9 及以下，用于打开已有的文件与工作区；Android 10 及以上使用存储访问框架，无需这些权限
+
+**iOS 平台**，应用不会触发照片、相机、麦克风、通讯录或文件相关的运行时权限弹窗：
+
+- 网络访问：用于远程开发、认证、订阅校验、AI 通信
+- 订阅与应用内购买通过 App Store（StoreKit，经 RevenueCat 集成）计费
+- 文件选取使用系统原生文档选择器，因此无需照片或文件库访问权限
 
 这些权限仅用于实现功能，不用于出售个人数据。
 

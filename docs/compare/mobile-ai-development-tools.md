@@ -12,6 +12,17 @@ Choosing between **mobile development tools** usually starts with a simple quest
 
 This page compares the tools most often evaluated together for **remote development** on a phone or tablet — from SSH clients such as Termius and Blink Shell, to agent-aware terminals such as Redock, ServerCC and Moshi, to agent orchestration environments such as Orca, and to the full **mobile development workspace** that NimoteCode is built around. It is written to help you pick the right category, not to declare a single winner: the products solve different problems, and the right answer depends on your workflow.
 
+A useful way to think about these tools is as different layers of the mobile development stack:
+
+**SSH Client → AI Agent Terminal → Agent Development Environment → Full Mobile Workspace**
+
+- **SSH Client** — Termius, Blink Shell
+- **AI Agent Terminal** — Redock, Moshi, ServerCC
+- **Agent Development Environment** — Orca
+- **Full Mobile Workspace** — NimoteCode
+
+This framing describes where each product focuses its effort rather than a strict ranking — some tools span more than one layer, and the right choice still depends on where your work actually happens.
+
 If you are weighing a specific switch, the dedicated pages for a [Termius alternative](/termius-alternative), a [Blink Shell alternative](/blink-shell-alternative), a [mobile IDE](/mobile-ide) or an [SSH IDE](/ssh-ide) go deeper on individual scenarios. For setup, start with the [documentation](/docs) or [download NimoteCode](/download).
 
 <MobileDevToolComparison lang="en" />

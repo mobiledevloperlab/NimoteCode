@@ -37,8 +37,6 @@ function cellFor(product: Competitor, row: FeatureRow): FeatureCell {
       return { status: 'no', text: product.platforms }
     case 'openSource':
       return { status: 'no', text: product.openSource }
-    case 'pricingModel':
-      return { status: 'no', text: product.pricing }
     default:
       return product.features[row.key]
   }
@@ -164,6 +162,11 @@ const productUrl =
         <a :href="productUrl" class="home-page-btn primary">{{ t.midCtaButton }}</a>
       </p>
     </div>
+
+    <!-- Methodology -->
+    <h2 :id="`methodology-${lang}`">{{ t.methodologyHeading }}</h2>
+    <p>{{ t.methodologyBody }}</p>
+    <p class="cmp-methodology-reviewed">{{ t.methodologyLastReviewed }}</p>
 
     <!-- Sources -->
     <h2 :id="`sources-${lang}`">{{ t.sourcesHeading }}</h2>

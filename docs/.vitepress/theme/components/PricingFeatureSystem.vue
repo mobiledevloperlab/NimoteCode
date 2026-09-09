@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import translations from '../i18n/pricing-features.json'
-import { product, productCopy } from '../product'
+import { productCopy } from '../product'
 
 type Locale = keyof typeof translations
 
@@ -12,15 +12,86 @@ const props = defineProps<{
 
 const copy = computed(() => translations[props.lang || 'en'] || translations.en)
 const showFeatures = computed(() => props.mode !== 'preview')
-const language = computed(() => props.lang === 'zh' ? 'zh' : 'en')
+const language = computed(() => (props.lang === 'zh' ? 'zh' : 'en'))
 const trial = computed(() => productCopy[language.value].trial)
 const pricing = computed(() => productCopy[language.value].pricing)
+const billing = computed(() => copy.value.pricing.billing)
+const trialCopy = computed(() => copy.value.pricing.trial)
+
+const yearly = ref(false)
 </script>
 
 <template>
   <div class="pricing-feature-system">
-    <section v-if="showFeatures" class="home-page-section dense alt pf-section">
-      <div class="home-page-section-head">
+    <section class="home-page-section dense pf-pricing-section">
+      <div class="home-page-section-head home-page-section-head-centered">
+        <p class="home-page-eyebrow">{{ copy.pricing.eyebrow }}</p>
+        <h2 class="home-page-section-title">{{ copy.pricing.title }}</h2>
+        <p class="home-page-section-copy">{{ copy.pricing.summary }}</p>
+      </div>
+
+      <div class="pf-billing-toggle" role="group" :aria-label="billing.label">
+        <button
+          type="button"
+          :class="{ active: !yearly }"
+          :aria-pressed="!yearly"
+          @click="yearly = false"
+        >{{ billing.monthly }}</button>
+        <button
+          type="button"
+          :class="{ active: yearly }"
+          :aria-pressed="yearly"
+          @click="yearly = true"
+        >{{ billing.yearly }}<span>{{ billing.save }}</span></button>
+      </div>
+
+      <div class="pf-pricing-grid">
+        <article
+          v-for="plan in copy.pricing.plans"
+          :key="plan.name"
+          class="pf-plan-card"
+          :class="{ 'is-featured': plan.highlight }"
+        >
+          <div class="pf-plan-topline">
+            <h3>{{ plan.name }}</h3>
+            <span v-if="plan.badge">{{ plan.badge }}</span>
+          </div>
+          <div class="pf-price-row">
+            <strong>{{ plan.yearlyPrice ? (yearly ? plan.yearlyPrice : plan.price) : plan.price }}</strong>
+            <span>{{ plan.yearlyPrice ? (yearly ? plan.yearlyPeriod : plan.period) : plan.period }}</span>
+          </div>
+          <p v-if="plan.yearlyPrice && !yearly" class="pf-price-alt">
+            {{ billing.or }} {{ plan.yearlyPrice }}{{ billing.yearlyShort }}
+            <em>{{ billing.save }}</em>
+          </p>
+          <p v-else-if="plan.yearlyPrice && yearly" class="pf-price-alt">
+            {{ billing.or }} {{ plan.price }}{{ billing.monthlyShort }}
+            <em>{{ billing.save }}</em>
+          </p>
+          <p class="pf-plan-summary">{{ plan.summary }}</p>
+          <a :href="plan.link" class="home-page-btn" :class="plan.highlight ? 'primary' : 'secondary'">
+            {{ plan.cta }}
+          </a>
+          <ul class="pf-plan-features">
+            <li v-for="feature in plan.features" :key="feature">{{ feature }}</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="pf-trial-banner">
+        <div class="pf-trial-copy">
+          <strong>{{ trialCopy.title }}</strong>
+          <span>{{ trialCopy.body }} {{ pricing }}.</span>
+        </div>
+        <a :href="trialCopy.link" class="home-page-btn primary">{{ trialCopy.cta }}</a>
+      </div>
+
+      <p class="pf-trust-line">{{ copy.pricing.trustLine }} {{ trial }}.</p>
+      <p class="pf-trust-line">{{ productCopy[language].byok }}</p>
+    </section>
+
+    <section v-if="showFeatures" class="home-page-section dense alt pf-features-section">
+      <div class="home-page-section-head home-page-section-head-centered">
         <p class="home-page-eyebrow">{{ copy.features.eyebrow }}</p>
         <h2 class="home-page-section-title">{{ copy.features.title }}</h2>
         <p class="home-page-section-copy">{{ copy.features.summary }}</p>
@@ -36,44 +107,6 @@ const pricing = computed(() => productCopy[language.value].pricing)
           </ul>
         </article>
       </div>
-    </section>
-
-    <section class="home-page-section dense pf-pricing-section">
-      <div class="home-page-section-head">
-        <p class="home-page-eyebrow">{{ copy.pricing.eyebrow }}</p>
-        <h2 class="home-page-section-title">{{ copy.pricing.title }}</h2>
-        <p class="home-page-section-copy">{{ copy.pricing.summary }}</p>
-      </div>
-      <div class="pf-pricing-grid">
-        <article
-          v-for="(plan, index) in copy.pricing.plans"
-          :key="plan.name"
-          class="pf-plan-card"
-          :class="{ 'is-featured': plan.highlight }"
-        >
-          <div class="pf-plan-topline">
-            <h3>{{ plan.name }}</h3>
-            <span v-if="plan.badge">{{ plan.badge }}</span>
-          </div>
-          <div class="pf-price-row">
-            <strong>{{ index === 1 ? product.pricing.monthly.replace('/month', '') : plan.price }}</strong>
-            <span>{{ index === 1 ? (language === 'zh' ? '每月' : 'per month') : plan.period }}</span>
-          </div>
-          <div v-if="index === 1" class="pf-yearly-row">
-            <strong>{{ product.pricing.yearly.replace('/year', '') }}</strong>
-            <span>{{ language === 'zh' ? '每年' : 'per year' }}</span>
-          </div>
-          <p class="pf-plan-summary">{{ plan.summary }}</p>
-          <a :href="plan.link" class="home-page-btn" :class="plan.highlight ? 'primary' : 'secondary'">
-            {{ plan.cta }}
-          </a>
-          <ul class="pf-plan-features">
-            <li v-for="feature in plan.features" :key="feature">{{ feature }}</li>
-          </ul>
-        </article>
-      </div>
-      <p class="pf-trust-line">{{ copy.pricing.trustLine }} {{ trial }}. {{ pricing }}.</p>
-      <p class="pf-trust-line">{{ productCopy[language].byok }}</p>
     </section>
   </div>
 </template>

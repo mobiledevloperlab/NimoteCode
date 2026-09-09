@@ -85,9 +85,24 @@
     },
     "pricing": {
       "eyebrow": "Pricing",
-      "title": "Choose the level of mobile development power you need.",
-      "summary": "Start free. Upgrade when mobile work needs automation, Git write access, multiple terminals, LSP, debugging, and sync.",
+      "title": "Start free. Upgrade when you need the full loop.",
+      "summary": "Every Pro workflow starts with a free 14-day trial, then stays on with a simple monthly or yearly plan. No ads, no credit, no model-upselling.",
       "trustLine": "Cancel anytime. No ads. No hidden fees.",
+      "billing": {
+        "label": "Billing period",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "save": "Save 17%",
+        "monthlyShort": "/month",
+        "yearlyShort": "/year",
+        "or": "or"
+      },
+      "trial": {
+        "title": "Try Pro free for 14 days",
+        "body": "Full Pro access on this device for 14 days. No credit card required — cancel anytime.",
+        "cta": "Start free trial",
+        "link": "/download"
+      },
       "plans": [
         {
           "name": "Free",
@@ -113,7 +128,7 @@
           "yearlyPeriod": "per year",
           "summary": "Unlock the complete mobile IDE system for serious delivery.",
           "cta": "Upgrade to Pro",
-          "link": "/pro",
+          "link": "/download",
           "highlight": true,
           "features": [
             "AI Agent and remote search after the trial",
@@ -213,9 +228,24 @@
     },
     "pricing": {
       "eyebrow": "价格",
-      "title": "选择你需要的移动开发能力等级。",
-      "summary": "免费开始。当移动端工作需要自动化、Git 写入、多终端、LSP、调试和同步时再升级。",
+      "title": "免费开始，需要完整闭环时再升级。",
+      "summary": "每个 Pro 工作流都从 14 天免费试用开始，之后按简单的月度或年度方案继续。无广告、无额度、不推销模型。",
       "trustLine": "可随时取消。无广告。无隐藏费用。",
+      "billing": {
+        "label": "计费周期",
+        "monthly": "按月",
+        "yearly": "按年",
+        "save": "省 17%",
+        "monthlyShort": "/月",
+        "yearlyShort": "/年",
+        "or": "或"
+      },
+      "trial": {
+        "title": "免费试用 Pro 14 天",
+        "body": "此设备 14 天内免费使用全部 Pro 功能。无需信用卡，可随时取消。",
+        "cta": "开始免费试用",
+        "link": "/zh/download"
+      },
       "plans": [
         {
           "name": "免费版",
@@ -241,7 +271,7 @@
           "yearlyPeriod": "每年",
           "summary": "解锁用于严肃交付的完整移动 IDE 系统。",
           "cta": "升级到 Pro",
-          "link": "/zh/pro",
+          "link": "/zh/download",
           "highlight": true,
           "features": [
             "试用结束后使用 AI Agent 与远程搜索",
@@ -342,9 +372,24 @@
     },
     "pricing": {
       "eyebrow": "料金",
-      "title": "必要なモバイル開発パワーを選択。",
-      "summary": "無料で始められます。自動化、Git 書き込み、複数ターミナル、LSP、デバッグ、同期が必要になったらアップグレードできます。",
+      "title": "無料で始め、必要なときにアップグレード。",
+      "summary": "Pro のすべてのワークフローは 14 日間の無料トライアルから始まり、シンプルな月払い・年払いで継続できます。広告なし、モデルの押し売りなし。",
       "trustLine": "いつでも解約可能。広告なし。隠れた料金なし。",
+      "billing": {
+        "label": "支払い期間",
+        "monthly": "月払い",
+        "yearly": "年払い",
+        "save": "17% お得",
+        "monthlyShort": "/月",
+        "yearlyShort": "/年",
+        "or": "または"
+      },
+      "trial": {
+        "title": "Pro を 14 日間無料でお試し",
+        "body": "このデバイスで Pro の全機能を 14 日間無料で利用。クレジットカード不要、いつでも解約可能です。",
+        "cta": "無料トライアルを開始",
+        "link": "/ja/download"
+      },
       "plans": [
         {
           "name": "無料",
@@ -368,7 +413,7 @@
           "period": "アプリ内に表示",
           "summary": "本格的な配信のための完全なモバイル IDE システムを解放。",
           "cta": "Pro にアップグレード",
-          "link": "/pro",
+          "link": "/ja/download",
           "highlight": true,
           "features": [
             "試用後の AI Agent とリモート検索",
@@ -469,9 +514,24 @@
     },
     "pricing": {
       "eyebrow": "가격",
-      "title": "필요한 모바일 개발 능력 수준을 선택하세요.",
-      "summary": "무료로 시작하세요. 자동화, Git 쓰기, 여러 터미널, LSP, 디버깅, 동기화가 필요해지면 업그레이드하면 됩니다.",
+      "title": "무료로 시작하고, 필요할 때 업그레이드하세요.",
+      "summary": "모든 Pro 워크플로는 14일 무료 체험으로 시작하며, 간단한 월간·연간 요금제로 계속 사용할 수 있습니다. 광고 없음, 크레딧 없음, 모델 판촉 없음.",
       "trustLine": "언제든 취소 가능. 광고 없음. 숨은 비용 없음.",
+      "billing": {
+        "label": "결제 주기",
+        "monthly": "월간",
+        "yearly": "연간",
+        "save": "17% 할인",
+        "monthlyShort": "/월",
+        "yearlyShort": "/년",
+        "or": "또는"
+      },
+      "trial": {
+        "title": "Pro 14일 무료 체험",
+        "body": "이 기기에서 Pro 전체 기능을 14일간 무료로 사용하세요. 신용카드 불필요, 언제든 취소 가능합니다.",
+        "cta": "무료 체험 시작",
+        "link": "/ko/download"
+      },
       "plans": [
         {
           "name": "무료",
@@ -495,7 +555,7 @@
           "period": "앱에 표시",
           "summary": "진지한 배포를 위한 완전한 모바일 IDE 시스템을 엽니다.",
           "cta": "Pro로 업그레이드",
-          "link": "/pro",
+          "link": "/ko/download",
           "highlight": true,
           "features": [
             "체험 후 AI Agent 및 원격 검색",

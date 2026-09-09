@@ -41,8 +41,9 @@ Depending on usage, NimoteCode stores:
 
 SSH password handling:
 
-- SSH passwords are used only in-memory during active connection/authentication.
-- SSH passwords are **not** persisted in local profile storage.
+- SSH passwords are used only for authenticating the connections you initiate.
+- SSH passwords are **not** stored in your local profile (connection settings).
+- If you choose the "remember password" option in the app, the password is saved in your device's platform secure storage (iOS Keychain or Android Keystore); you can remove it at any time by deleting the saved SSH profile or connection.
 
 ### 2.4 AI Configuration and AI Request Data
 
@@ -89,12 +90,20 @@ We do not sell personal data.
 
 ## 5. Permissions and Device Access
 
-Depending on platform and features, the app may use permissions such as:
+NimoteCode does not request access to sensitive device data such as photos, camera, microphone, contacts, or precise location. Because the Android and iOS permission models differ, the permissions we declare are listed separately below:
 
-- Network access (`INTERNET`) for remote development, auth, subscription checks, and AI/provider communication
-- Billing access (Google Play Billing) for subscription purchases
-- Storage-related permissions on Android for file/workspace operations
-- Foreground service permissions on Android for long-running active workflows
+On **Android**, the app declares limited permissions in its manifest:
+
+- `INTERNET` and `ACCESS_NETWORK_STATE` for remote development, authentication, subscription checks, and AI/provider communication
+- `com.android.vending.BILLING` for Google Play subscription purchases
+- `com.google.android.gms.permission.AD_ID`, declared as part of the Google services libraries (Firebase Analytics / Google Sign-In) used by the app
+- `READ_EXTERNAL_STORAGE` and `WRITE_EXTERNAL_STORAGE` only on Android 9 and below, for opening existing files and workspaces; on Android 10 and above the app uses the storage access framework and does not require these permissions
+
+On **iOS**, the app does not request runtime permission prompts for photos, camera, microphone, contacts, or files:
+
+- Network access is used for remote development, authentication, subscription checks, and AI/provider communication
+- Subscriptions and in-app purchases are billed through the App Store (StoreKit, integrated via RevenueCat)
+- File selection uses the native document picker, so no photo or file-library access permission is required
 
 Permissions are used for app functionality, not for selling personal data.
 
