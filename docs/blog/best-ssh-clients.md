@@ -78,7 +78,7 @@ These are the criteria we used while building NimoteCode, and they are a fair ch
 
 ## Where NimoteCode fits
 
-NimoteCode is a mobile AI development workspace for Android (the iOS release is in App Store review) that treats local and remote projects as the same kind of workspace:
+NimoteCode is a mobile AI development workspace for Android and iOS that treats local and remote projects as the same kind of workspace:
 
 - **Local and SSH workspaces** — open a folder on your device, or connect to a Mac or Linux project over SSH with your own secure networking
 - **Code editor on mobile** — keyboard-friendly editing with split panes for two files side by side, built for phones and refined for tablets
@@ -140,7 +140,7 @@ All five handle SSH connections and command sessions. Where a client offers more
 
 There is no single "best" mobile IDE for everyone, because the categories solve different problems. If you only need a remote terminal, an SSH client is the right answer. If your team already runs cloud developer environments, use them. But if you want the full loop — browse, edit, run, review, ship — from a device in your pocket, evaluate tools that behave like a workspace rather than a feature.
 
-That is the gap NimoteCode was built for. It is available for Android now, with iOS in App Store review. The workspace is free to download — try a real remote workflow from your phone and see whether it changes what you consider "mobile development".
+That is the gap NimoteCode was built for. It is available now on Android (Google Play) and iPhone and iPad (App Store). The workspace is free to download — try a real remote workflow from your phone and see whether it changes what you consider "mobile development".
 
 ## Related content
 

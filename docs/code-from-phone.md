@@ -54,13 +54,13 @@ The reliable pattern is to connect to your own development machine over SSH with
 
 ### Which phones can run NimoteCode?
 
-NimoteCode is available for Android phones and tablets from the current Android release. Check the download page for platform requirements and iOS status.
+NimoteCode is available for Android phones and tablets on Google Play and for iPhone and iPad on the App Store.
 
 <div class="seo-cta">
   <p><strong>Make the moments when you only have a phone productive.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=code_from_phone" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=code_from_phone&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">Download for iOS</a>
     <a href="/demo?utm_source=code_from_phone&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

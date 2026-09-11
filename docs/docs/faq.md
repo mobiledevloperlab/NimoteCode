@@ -1,17 +1,17 @@
 ---
 title: NimoteCode FAQ | Mobile IDE Questions
-description: Concise answers about NimoteCode local and SSH workspaces, AI provider profiles, Git Source Control, remote Tasks and Pro access.
+description: Concise answers about NimoteCode local, Android Local Linux and SSH workspaces, AI provider profiles, Git Source Control, remote Tasks and Pro access.
 ---
 
 # NimoteCode FAQ
 
 ## Is NimoteCode only an SSH client?
 
-No. NimoteCode can open a local project or an SSH workspace, and brings Explorer, Editor, Terminal, Git workflows, AI assistance and diagnostic panels into the same project context.
+No. NimoteCode can open a local project, use Android Local Linux, or connect to an SSH workspace, and brings Explorer, Editor, Terminal, Git workflows, AI assistance and diagnostic panels into the same project context.
 
 ## Can I use it without Pro?
 
-Yes. Free includes local and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. AI Agent and remote search are available during the 14-day, per-device trial and with Pro. See [Pro](/pro) for the gated workflows.
+Yes. Free includes local, Android Local Linux and SSH workspaces, the editor, baseline terminal, AI Chat and basic Tasks. Local Linux requires Android 8+ on a 64-bit ARM64 or x86_64 device and is not available on iOS. AI Agent and remote search are available during the 14-day, per-device trial and with Pro. See [Pro](/pro) for the gated workflows.
 
 ## Which AI providers can I configure?
 

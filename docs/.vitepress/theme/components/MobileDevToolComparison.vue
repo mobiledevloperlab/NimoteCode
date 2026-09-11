@@ -65,10 +65,6 @@ const sourceGroups = computed(() =>
 
 const downloadUrl =
   'https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=compare&utm_medium=website&utm_campaign=mobile_dev_tools_compare'
-const downloadPageUrl =
-  props.lang === 'zh'
-    ? '/zh/download?utm_source=compare&utm_medium=website&utm_campaign=ios_availability'
-    : '/download?utm_source=compare&utm_medium=website&utm_campaign=ios_availability'
 const productUrl =
   props.lang === 'zh'
     ? '/zh/mobile-ide?utm_source=compare&utm_medium=website&utm_campaign=explore_nimotecode'
@@ -196,7 +192,7 @@ const productUrl =
       <p><strong>{{ t.bottomCtaTitle }}</strong></p>
       <p class="seo-cta-actions">
         <a :href="downloadUrl" class="home-page-btn primary" target="_blank" rel="noreferrer">{{ t.bottomCtaButton }}</a>
-        <a :href="downloadPageUrl" class="home-page-btn secondary">{{ t.iosNote }}</a>
+        <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn secondary" target="_blank" rel="noreferrer">{{ t.iosNote }}</a>
       </p>
     </div>
 

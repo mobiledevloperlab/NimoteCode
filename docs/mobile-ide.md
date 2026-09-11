@@ -1,13 +1,13 @@
 ---
 title: "Mobile IDE for SSH, Git and AI Coding | NimoteCode"
-description: "NimoteCode is a Mobile AI Development Workspace for Android, with SSH, split editing, in-app web preview, Git and AI-assisted coding in one environment."
+description: "NimoteCode is a Mobile AI Development Workspace for Android and iOS, with Android Local Linux, SSH, split editing, HTML preview, Git and AI-assisted coding in one environment."
 ---
 
 # Mobile IDE for SSH, Git and AI Coding
 
 Most mobile coding tools solve one part of the job: open a file, connect to a server, or run a command. A **mobile IDE** should keep the whole development loop together: explore the project, understand the code, make a change, verify it, and review what will ship.
 
-NimoteCode is a **Mobile AI Development Workspace** for that loop. The Android release brings an Editor, Explorer, SSH, in-app web and media preview, Terminal, Git, AI Chat and Agent into one workspace; the public iOS release is still being prepared.
+NimoteCode is a **Mobile AI Development Workspace** for that loop. The Android and iOS releases bring an Editor, Explorer, SSH, in-app web and media preview, Terminal, Git, AI Chat and Agent into one workspace. On supported Android devices, Local Linux also provides a bundled Ubuntu environment with Bash, Git, and SSH without root access.
 
 <ImagePlaceholder image-key="mobileIde" alt="NimoteCode mobile IDE">
   <strong>Image placeholder — Mobile IDE overview</strong>
@@ -30,9 +30,9 @@ The goal is not to replace a desktop for every long coding session. It is to mak
 
 ## A complete workflow, without app hopping
 
-Start in Local Explorer when the project is on your device, or connect through [SSH Workspace](/docs/ssh) to a remote development machine or server. From there, open files side by side in the editor, preview a local or remote web project when needed, run tests or inspection commands in [Terminal](/docs/terminal), and use [Source Control](/docs/source-control) to inspect the resulting diff.
+Start in Local Explorer when the project is on your device, use Local Linux when you need bundled Ubuntu on a supported Android device, or connect through [SSH Workspace](/docs/ssh) to a remote development machine or server. From there, open files side by side in the editor, preview the current HTML contents before saving or open a local or remote web project when needed, run tests or inspection commands in [Terminal](/docs/terminal), and use [Source Control](/docs/source-control) to inspect the resulting diff.
 
-When a task needs more context, [AI Chat and Agent](/docs/ai) can explain code or plan a change. AI Agent is designed for controlled multi-step work; you can inspect what it proposes and keep the final decision in your hands.
+When a task needs more context, [AI Chat and Agent](/docs/ai) can explain code or plan a change. AI Agent is designed for controlled multi-step work; in an SSH workspace it can also use a configured compatible external ACP runtime. You can inspect what it proposes and keep the final decision in your hands.
 
 ## Built for mobile constraints
 
@@ -56,13 +56,13 @@ Yes. Connect through SSH, inspect files, edit code, run terminal commands and re
 
 ### Is NimoteCode available for Android and iOS?
 
-NimoteCode is currently available for Android. The public iOS App Store release is being prepared; check [Download](/download) for current availability.
+NimoteCode is available for Android on Google Play and for iPhone and iPad on the App Store.
 
 <div class="seo-cta">
   <p><strong>Carry the real workflow, not just a terminal.</strong> See the mobile IDE in action or choose your platform.</p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=mobile_ide" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=mobile_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">Download for iOS</a>
     <a href="/demo?utm_source=mobile_ide&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

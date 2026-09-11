@@ -1,11 +1,11 @@
 ---
 title: 快速开始 | NimoteCode 移动 IDE
-description: 在 NimoteCode 打开本地或 SSH 工作区，编辑文件、运行验证命令，并选择下一条移动开发工作流。
+description: 在 NimoteCode 打开本地、Android 本地 Linux 或 SSH 工作区，编辑文件、运行验证命令，并选择下一条移动开发工作流。
 ---
 
 # 快速开始
 
-先跑通核心流程：打开一个项目、完成一处小修改，再通过终端验证。无论项目在设备上还是通过 SSH 连接到远程主机，都适用。
+先跑通核心流程：打开一个项目、完成一处小修改，再通过终端验证。项目可以在设备、远程 SSH 主机，或受支持 Android 设备上的本地 Linux 中。
 
 <ImagePlaceholder image-key="quickStart" alt="NimoteCode 手机上的本地工作区">
   <strong>图片占位符 —— 跑通第一条移动开发流程</strong>
@@ -14,7 +14,7 @@ description: 在 NimoteCode 打开本地或 SSH 工作区，编辑文件、运�
 
 ## 1. 打开工作区
 
-项目位于设备时，选择 **Local Explorer**；项目位于远程主机时，选择 **Remote Explorer**。SSH 模式下填写主机、端口和用户名，再选择密码、私钥文件或粘贴私钥认证。开始前务必确认项目根路径。
+项目位于设备时，选择 **Local Explorer**；项目位于远程主机时，选择 **Remote Explorer**；在支持 Android 8+ ARM64/x86_64 的设备上，可选择 **Local Linux** 使用内置 Ubuntu，无需 root，iOS 不提供此功能；其安装和生命周期请查看 [Android 本地 Linux](/zh/docs/local-linux)。SSH 模式下填写主机、端口和用户名，再选择密码、私钥文件或粘贴私钥认证。开始前务必确认项目根路径。
 
 ## 2. 打开、编辑并保存文件
 

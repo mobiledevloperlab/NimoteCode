@@ -1212,6 +1212,44 @@ html:not(.dark) .home-page-hero .home-page-subtitle {
   padding-top: var(--nimote-section-space);
   padding-bottom: var(--nimote-section-space);
 }
+.home-page-compare-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 1040px;
+  margin: 32px auto 0;
+}
+.home-page-compare-card {
+  min-height: 190px;
+  padding: 24px;
+  border: 1px solid var(--nimote-border);
+  border-radius: var(--nimote-radius-lg);
+  background: var(--nimote-card);
+  box-shadow: var(--nimote-shadow-sm);
+}
+.home-page-compare-card--nimote {
+  border-color: var(--nimote-border-accent);
+  background: rgba(var(--nimote-accent-rgb), 0.06);
+}
+.home-page-compare-card-kicker {
+  margin: 0;
+  color: var(--nimote-link);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.home-page-compare-card h3 {
+  margin: 28px 0 10px;
+  color: var(--nimote-text-primary);
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+}
+.home-page-compare-card p:not(.home-page-compare-card-kicker) {
+  margin: 0;
+  color: var(--nimote-text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
 .home-page-compare-wrap {
   display: block;
   width: 100%;
@@ -1241,6 +1279,12 @@ html:not(.dark) .home-page-hero .home-page-subtitle {
 .home-page-compare-wrap .home-page-compare th:nth-child(n+2),
 .home-page-compare-wrap .home-page-compare td:nth-child(n+2) {
   width: 12.3%;
+}
+.home-page-compare-wrap .home-page-compare--compact th,
+.home-page-compare-wrap .home-page-compare--compact td,
+.home-page-compare-wrap .home-page-compare--compact th:first-child,
+.home-page-compare-wrap .home-page-compare--compact td:first-child {
+  width: 25%;
 }
 .home-page-compare-wrap .home-page-compare th,
 .home-page-compare-wrap .home-page-compare td {
@@ -1372,6 +1416,17 @@ html:not(.dark) .home-page-hero .home-page-subtitle {
   }
   .home-page-pillar {
     padding: 22px;
+  }
+  .home-page-compare-cards {
+    grid-template-columns: 1fr;
+    margin-top: 24px;
+  }
+  .home-page-compare-card {
+    min-height: 0;
+    padding: 20px;
+  }
+  .home-page-compare-card h3 {
+    margin-top: 22px;
   }
   .home-page-compare th,
   .home-page-compare td {

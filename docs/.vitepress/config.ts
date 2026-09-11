@@ -379,7 +379,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: 'Is NimoteCode available for Android and iOS?',
-        answer: 'NimoteCode is currently available for Android. The public iOS App Store release is being prepared; check the download page for current availability.'
+        answer: 'NimoteCode is available for Android on Google Play and for iPhone and iPad on the App Store.'
       }
     ],
     '/ssh-ide': [
@@ -453,7 +453,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: 'Is there an iOS version?',
-        answer: 'NimoteCode is currently available for Android. The public iOS App Store release is being prepared; check the download page for current availability.'
+        answer: 'NimoteCode is available for Android on Google Play and for iPhone and iPad on the App Store.'
       }
     ],
     '/mobile-ai-coding': [
@@ -481,7 +481,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: 'NimoteCode 支持 Android 和 iOS 吗？',
-        answer: 'NimoteCode 目前提供 Android 版。公开的 iOS App Store 版本正在准备中，请查看下载页确认当前可用性。'
+        answer: 'NimoteCode 已上架 Google Play（Android）与 App Store（iPhone 与 iPad）。'
       }
     ],
     '/zh/ssh-ide': [
@@ -547,7 +547,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: 'Is NimoteCode available on iOS too?',
-        answer: 'NimoteCode is currently available for Android. The public iOS App Store release is being prepared; check the download page for current availability.'
+        answer: 'NimoteCode is available for Android on Google Play and for iPhone and iPad on the App Store.'
       },
       {
         question: 'Can Android run heavy local builds or full IDEs?',
@@ -579,7 +579,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: 'Which phones can run NimoteCode?',
-        answer: 'NimoteCode is available for Android phones and tablets from the current Android release. Check the download page for platform requirements and iOS status.'
+        answer: 'NimoteCode is available for Android phones and tablets on Google Play, and for iPhone and iPad on the App Store.'
       }
     ],
     '/zh/claude-code-from-phone': [
@@ -617,7 +617,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: 'NimoteCode 也支持 iOS 吗？',
-        answer: 'NimoteCode 目前提供 Android 版。公开的 iOS App Store 版本正在准备中，请查看下载页确认当前可用性。'
+        answer: 'NimoteCode 已上架 Google Play（Android）与 App Store（iPhone 与 iPad）。'
       },
       {
         question: 'Android 能运行重型本地构建或完整 IDE 吗？',
@@ -649,7 +649,7 @@ function faqSchema(context: TransformContext): object | null {
       },
       {
         question: '哪些手机可以运行 NimoteCode？',
-        answer: 'NimoteCode 从当前 Android 版本起支持 Android 手机与平板。请查看下载页了解平台要求与 iOS 状态。'
+        answer: 'NimoteCode 可于 Google Play（Android 手机与平板）与 App Store（iPhone 与 iPad）下载。'
       }
     ]
   }
@@ -837,25 +837,20 @@ export default defineConfig({
               ]
             },
             {
-              text: 'Daily Workflow',
+              text: 'Development Workflow',
               collapsed: false,
               items: [
-                { text: 'Workspaces', link: '/docs/ssh' },
+                { text: 'Local and Remote Workspaces', link: '/docs/ssh' },
+                { text: 'Android Local Linux', link: '/docs/local-linux' },
+                { text: 'AI Chat and Agent', link: '/docs/ai' },
                 { text: 'Editor', link: '/docs/editor' },
                 { text: 'Terminal', link: '/docs/terminal' },
                 { text: 'Search', link: '/docs/search' },
                 { text: 'Source Control', link: '/docs/source-control' },
-                { text: 'Tasks', link: '/docs/tasks' }
-              ]
-            },
-            {
-              text: 'AI and Diagnostics',
-              collapsed: false,
-              items: [
-                { text: 'AI Chat and Agent', link: '/docs/ai' },
                 { text: 'LSP', link: '/docs/lsp' },
                 { text: 'Debug', link: '/docs/debug' },
-                { text: 'Sync / Cache', link: '/docs/sync-cache' }
+                { text: 'Sync / Cache', link: '/docs/sync-cache' },
+                { text: 'Tasks', link: '/docs/tasks' }
               ]
             },
             {
@@ -935,25 +930,20 @@ export default defineConfig({
               ]
             },
             {
-              text: '日常开发',
+              text: '开发工作流',
               collapsed: false,
               items: [
-                { text: '本地与 SSH 工作区', link: '/zh/docs/ssh' },
+                { text: '本地与远程 SSH 工作区', link: '/zh/docs/ssh' },
+                { text: 'Android 本地 Linux', link: '/zh/docs/local-linux' },
+                { text: 'AI Chat 与 Agent', link: '/zh/docs/ai' },
                 { text: '编辑器', link: '/zh/docs/editor' },
                 { text: '终端使用', link: '/zh/docs/terminal' },
                 { text: '远程搜索', link: '/zh/docs/search' },
                 { text: 'Source Control 工作流', link: '/zh/docs/source-control' },
-                { text: 'Tasks 面板', link: '/zh/docs/tasks' }
-              ]
-            },
-            {
-              text: 'AI 与诊断',
-              collapsed: false,
-              items: [
-                { text: 'AI Chat 与 Agent', link: '/zh/docs/ai' },
                 { text: 'LSP 面板', link: '/zh/docs/lsp' },
                 { text: '调试面板', link: '/zh/docs/debug' },
-                { text: 'Sync / Cache 面板', link: '/zh/docs/sync-cache' }
+                { text: 'Sync / Cache 面板', link: '/zh/docs/sync-cache' },
+                { text: 'Tasks 面板', link: '/zh/docs/tasks' }
               ]
             },
             {

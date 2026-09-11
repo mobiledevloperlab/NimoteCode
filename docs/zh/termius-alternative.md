@@ -40,7 +40,7 @@ Termius 是其各自权利人的商标。本页是工作流对比，不构成关
   <p><strong>当 SSH 任务变成编码任务时，把整个工作流放在一起。</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=termius_alternative" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a>
-    <a href="/zh/download?utm_source=termius_alternative&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">了解 iOS 可用性</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">下载 iOS 版</a>
     <a href="/zh/demo?utm_source=termius_alternative&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
   </p>
 </div>

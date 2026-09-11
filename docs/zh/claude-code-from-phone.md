@@ -59,7 +59,7 @@ NimoteCode 自身的 AI 提供商配置见 [AI Chat 与 Agent](/zh/docs/ai)。�
   <p><strong>把 SSH 项目、终端与审查工作流带到手机上。</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=claude_code_from_phone" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a>
-    <a href="/zh/download?utm_source=claude_code_from_phone&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">了解 iOS 可用性</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">下载 iOS 版</a>
     <a href="/zh/demo?utm_source=claude_code_from_phone&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
   </p>
 </div>

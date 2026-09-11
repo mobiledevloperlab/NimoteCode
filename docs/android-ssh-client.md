@@ -101,7 +101,7 @@ Yes. Source Control gives you repository status, diffs, history and branches nex
 
 ### Is there an iOS version?
 
-NimoteCode is currently available for Android. The public iOS App Store release is being prepared; check the [download page](/download) for current availability.
+NimoteCode is available for Android on Google Play and for iPhone and iPad on the App Store.
 
 <div class="seo-cta">
   <p><strong>Install NimoteCode for Android and keep your SSH, code and Git context together.</strong></p>

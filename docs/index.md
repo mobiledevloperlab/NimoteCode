@@ -2,7 +2,7 @@
 layout: home
 title: NimoteCode – Mobile SSH IDE & AI Coding Workspace
 titleTemplate: false
-description: "NimoteCode is a mobile SSH IDE for remote development: Editor, Explorer, SSH terminal, Git, Preview and AI Agent for mobile coding on Android, with iOS availability on the download page."
+description: "NimoteCode is a mobile development workspace with Android Local Linux, SSH, Editor, Terminal, Git, Preview and AI Agent for coding on phones and tablets."
 ---
 
 <section class="home-page-hero">
@@ -11,13 +11,14 @@ description: "NimoteCode is a mobile SSH IDE for remote development: Editor, Exp
       <p class="home-page-badge">Mobile Development Workspace</p>
       <div class="home-page-logo-lockup"><img src="/app_icon.png" alt="NimoteCode" class="home-page-logo" width="1024" height="1024" decoding="async"><span class="home-page-brand">NimoteCode</span></div>
       <h1 class="home-page-title">A real mobile SSH IDE for<br><em>remote development.</em></h1>
-      <p class="home-page-subtitle">Editor, Explorer, SSH, Terminal, Git, Preview and AI Agent — built for real development on phones and tablets.</p>
+      <p class="home-page-subtitle">Android Local Linux, Editor, SSH, Terminal, Git, Preview and AI Agent — built for real development on phones and tablets.</p>
       <div class="home-page-actions home-page-actions-hero">
-        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">Download NimoteCode</a>
+        <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
+        <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for iOS</a>
         <a href="#product-demo" class="home-page-btn secondary">Watch Demo</a>
         <a href="https://github.com/mobiledevloperlab" class="home-page-btn secondary home-page-btn-weak" target="_blank" rel="noreferrer">View on GitHub</a>
       </div>
-      <a class="home-page-availability-link" href="/download?utm_source=homepage&utm_medium=website&utm_campaign=ios_availability">iOS is under App Store review — check availability <span aria-hidden="true">→</span></a>
+      <a class="home-page-availability-link" href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" target="_blank" rel="noreferrer">Now available on the App Store <span aria-hidden="true">→</span></a>
     </div>
     <!-- 暂时不上线：App 界面 mockup，代码保留在 components/AppMockup.vue，需要时取消注释 -->
     <!-- <AppMockup /> -->
@@ -38,8 +39,8 @@ description: "NimoteCode is a mobile SSH IDE for remote development: Editor, Exp
 </section>
 <section class="home-page-section home-page-trust-section" aria-label="Product facts">
   <div class="home-page-trust">
-    <div class="home-page-trust-item" data-reveal><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4 12 14l-3-3"/></svg></span>Android available now</div>
-    <div class="home-page-trust-item" data-reveal><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8 20.5h8"/><path d="M12 16.5v4"/></svg></span>SSH + Local Workspaces</div>
+    <div class="home-page-trust-item" data-reveal><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4 12 14l-3-3"/></svg></span>Android &amp; iOS available</div>
+    <div class="home-page-trust-item" data-reveal><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8 20.5h8"/><path d="M12 16.5v4"/></svg></span>Android Local Linux + SSH</div>
     <div class="home-page-trust-item" data-reveal><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>Bring Your Own AI Provider</div>
     <div class="home-page-trust-item" data-reveal><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8l1.7 4.5 4.5 1.7-4.5 1.7-1.7 4.5-1.7-4.5-4.5-1.7 4.5-1.7 1.7-4.5z"/><path d="M19.4 2.6l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9.9-2.4z"/></svg></span>AI Chat &amp; Agent</div>
   </div>
@@ -48,10 +49,10 @@ description: "NimoteCode is a mobile SSH IDE for remote development: Editor, Exp
   <div class="home-page-section-head home-page-section-head-centered" data-reveal>
     <p class="home-page-eyebrow">Everything in one workspace</p>
     <h2 class="home-page-section-title">From remote workspace to AI, in one mobile IDE.</h2>
-    <p class="home-page-section-copy">NimoteCode is not just a remote terminal or an AI-agent companion. It is a mobile development workspace where you can inspect code, edit files, run commands, review Git changes and continue working when an agent needs human judgment.</p>
+    <p class="home-page-section-copy">NimoteCode is a mobile development workspace where you can inspect code, edit files, run commands, review Git changes and continue working when an agent needs human judgment — on an SSH host or in Android Local Linux.</p>
   </div>
   <ul class="home-page-cap-strip" data-reveal>
-    <li>Remote Workspace</li>
+    <li>Local Linux / SSH Workspace</li>
     <li>Real Code Editor</li>
     <li>Terminal &amp; SSH</li>
     <li>Git Workflow</li>
@@ -68,7 +69,7 @@ description: "NimoteCode is a mobile SSH IDE for remote development: Editor, Exp
         <p class="home-page-eyebrow">Remote Workspace</p>
       </div>
       <h2 class="home-page-pillar-title">Your development machine, anywhere.</h2>
-      <p class="home-page-pillar-copy">Open the real project on your Mac, Linux box or server over SSH — with a real code editor on your phone or tablet.</p>
+      <p class="home-page-pillar-copy">Open the real project on your Mac, Linux box or server over SSH, or start in bundled Ubuntu on supported Android devices — with a real code editor on your phone or tablet.</p>
       <ul class="home-page-pillar-points">
         <li>Remote files</li>
         <li>Code editor</li>
@@ -115,8 +116,13 @@ description: "NimoteCode is a mobile SSH IDE for remote development: Editor, Exp
     <h2 class="home-page-section-title">More than a remote terminal.</h2>
     <p class="home-page-section-copy">Some mobile developer tools focus on SSH access. Others focus on monitoring AI coding agents. NimoteCode brings the editor, remote workspace, Terminal, Git, Preview and AI workflow together in one mobile development environment.</p>
   </div>
+  <div class="home-page-compare-cards" data-reveal>
+    <article class="home-page-compare-card"><p class="home-page-compare-card-kicker">SSH CLIENT</p><h3>Access a remote shell.</h3><p>Best when you only need commands and server access.</p></article>
+    <article class="home-page-compare-card"><p class="home-page-compare-card-kicker">AI AGENT TERMINAL</p><h3>Drive an agent from the terminal.</h3><p>Best when the primary workflow stays in a remote CLI.</p></article>
+    <article class="home-page-compare-card home-page-compare-card--nimote"><p class="home-page-compare-card-kicker">NIMOTECODE</p><h3>Finish work in one workspace.</h3><p>Editor, Local Linux, SSH, Terminal, Git, Preview and AI stay connected.</p></article>
+  </div>
   <div class="home-page-section-cta" data-reveal>
-    <a href="/compare/mobile-ai-development-tools" class="home-page-btn primary">Compare mobile development tools <span aria-hidden="true">→</span></a>
+    <a href="/compare/mobile-ai-development-tools" class="home-page-btn primary">See the detailed comparison <span aria-hidden="true">→</span></a>
   </div>
 </section>
 <section class="home-page-section home-page-use-case-section">

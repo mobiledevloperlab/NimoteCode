@@ -1,11 +1,11 @@
 ---
 title: 功能特性 | NimoteCode 移动 AI 开发工作台
-description: 浏览 NimoteCode 的移动开发能力：本地与 SSH 工作区、双栏编辑、应用内 Web 与媒体预览、终端、Git、AI Chat 和 Agent、LSP、调试、Tasks 与 Sync/Cache。
+description: 浏览 NimoteCode 的移动开发能力：Android 本地 Linux、本地与 SSH 工作区、双栏编辑、HTML 预览、终端、Git、AI Chat 和 Agent、LSP、调试、Tasks 与 Sync/Cache。
 ---
 
 # 功能特性
 
-NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → Editor → Preview → Terminal → Git → AI**。本页列出每个功能的用途，以及它属于免费版还是 Pro。
+NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → Editor → Preview → Terminal → Git → AI**。项目可以位于设备、SSH 主机，或受支持 Android 设备上的内置 Ubuntu。本页列出每个功能的用途，以及它属于免费版还是 Pro。
 
 <div class="feature-showcase" role="region" aria-label="NimoteCode 功能亮点">
   <div class="feature-showcase__track">
@@ -24,9 +24,9 @@ NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → 
 
 | 功能 | 能解决什么 | 可用性 |
 | --- | --- | --- |
-| **本地与 SSH 工作区** | 打开本地项目，或使用密码、私钥连接已保存的远程 SSH 工作区。 | 免费 |
+| **本地、[本地 Linux](/zh/docs/local-linux) 与 SSH 工作区** | 打开本地项目、使用密码或私钥连接 SSH 工作区，或在支持的 Android 8+ ARM64/x86_64 设备中免 root 使用内置 Ubuntu。本地 Linux 仅支持 Android。 | 免费 |
 | **代码编辑器** | 标签页或双栏编辑、保存、图片与支持媒体的预览、剪贴板、撤销/重做、光标定位与结构化上下文。 | 免费 |
-| **Web 与媒体预览** | 在应用内打开本地或远程 Web 项目，也可从 Terminal 中的 URL 直接进入预览。 | 免费 |
+| **Web 与媒体预览** | 在应用内打开本地或远程 Web 项目，直接预览当前未保存的 HTML 内容，或从 Terminal、AI 回复和工具输出中的 URL 打开。 | 免费 |
 | **终端** | 在当前工作区执行命令、搜索输出、使用快捷命令，并在远程重连后继续工作。 | 免费 |
 | **Git 审查** | 查看仓库状态、diff、分支状态与历史。 | 免费 |
 | **AI Chat** | 基于当前文件、任务与 Agent 上下文解释代码、分析错误输出、规划下一步。 | 免费 |
@@ -38,7 +38,7 @@ NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → 
 
 | 功能 | 能解决什么 | 可用性 |
 | --- | --- | --- |
-| **AI Agent** | 在文件、终端与 Git 工具之间完成受控的多步骤任务。 | 试用 · Pro |
+| **AI Agent** | 在文件、终端与 Git 工具之间完成受控的多步骤任务；在 SSH 工作区中完成配置后可选择兼容的外部 ACP 运行时。 | 试用 · Pro |
 | **Git 写入** | 提交、推送、stash，以及分支/切换/合并等操作——执行前可先审查。 | 试用 · Pro |
 | **远程搜索** | 在整个远程工作区中进行全局内容搜索。 | 试用 · Pro |
 | **多终端** | 为日志、测试、服务与部署保留并行会话。 | 试用 · Pro |
@@ -48,21 +48,10 @@ NimoteCode 将核心开发闭环收敛到一个移动工作区：**Explorer → 
 
 ## 一条实用工作路径
 
-1. 使用 [SSH 工作区](/zh/docs/ssh) 连接远程项目，或打开本地项目。
+1. 使用 [SSH 工作区](/zh/docs/ssh) 连接远程项目、打开本地项目，或在受支持的 Android 设备中使用 [Android 本地 Linux](/zh/docs/local-linux)。
 2. 在 [编辑器](/zh/docs/editor) 中定位并修改文件。
 3. 在 [终端](/zh/docs/terminal) 中验证；需要时搜索输出或远程内容。
 4. 让 [AI Chat 与 Agent](/zh/docs/ai) 协助理解错误或规划改动。
 5. 使用 [Source Control](/zh/docs/source-control) 审查结果；交付需要受限 Git 写入操作时再使用 Pro。
 
 > 功能会遵循权限与环境前置条件。例如 LSP、Debug 需要远程主机配置相应语言服务或调试适配器；面对敏感系统时，仍应审查每个 AI 结果与执行动作。
-
-<div class="home-page-section home-page-section-head home-page-section-head-centered" data-reveal>
-  <p class="home-page-eyebrow">立即体验</p>
-  <h2 class="home-page-section-title">从手机开始一次真实的远程工作流。</h2>
-  <p class="home-page-section-copy">NimoteCode 在 Android 上<strong>免费下载</strong>，iOS 版已进入 App Store 审核。请自带 AI Provider——模型访问与计费始终由您掌控。</p>
-  <div class="home-page-section-cta" data-reveal>
-    <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=zh_features_cta" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 NimoteCode</a>
-    <a href="/zh/demo" class="home-page-btn secondary">观看演示</a>
-    <a class="home-page-availability-link" href="/zh/download?utm_source=features&utm_medium=website&utm_campaign=ios_availability">iOS 正在 App Store 审核——查看可用状态 <span aria-hidden="true">→</span></a>
-  </div>
-</div>

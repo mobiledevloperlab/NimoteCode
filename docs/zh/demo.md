@@ -50,7 +50,7 @@ AI Chat 能帮助解释代码或报错。AI Agent 可以协助受控的多步骤
   <p><strong>在下一次聚焦的远程任务中试试这个移动开发工作区。</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=demo_page" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a>
-    <a href="/zh/download?utm_source=demo&utm_medium=website&utm_campaign=ios_interest" class="home-page-btn tertiary">了解 iOS 可用性</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">下载 iOS 版</a>
     <a href="/zh/docs/quick-start?utm_source=demo&utm_medium=website&utm_campaign=quick_start" class="home-page-btn secondary">阅读快速入门</a>
   </p>
 </div>

@@ -59,7 +59,7 @@ Yes, for a focused set of tasks. With an Android IDE like NimoteCode you can con
 
 ### Is NimoteCode available on iOS too?
 
-NimoteCode is currently available for Android. The public iOS App Store release is being prepared; check the download page for current availability.
+NimoteCode is available for Android on Google Play and for iPhone and iPad on the App Store.
 
 ### Can Android run heavy local builds or full IDEs?
 
@@ -69,7 +69,7 @@ Not the same way a desktop does. Long local compilation and large multi-file ref
   <p><strong>Turn your Android phone or tablet into a development workspace.</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=android_ide" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for Android</a>
-    <a href="/download?utm_source=android_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">Check iOS availability</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">Download for iOS</a>
     <a href="/demo?utm_source=android_ide&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>
 </div>

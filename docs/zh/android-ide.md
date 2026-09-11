@@ -59,7 +59,7 @@ Android 无法在所有任务上替代桌面。重型本地编译、跨文件的
 
 ### NimoteCode 也支持 iOS 吗？
 
-NimoteCode 目前提供 Android 版。公开的 iOS App Store 版本正在准备中，请查看下载页确认当前可用性。
+NimoteCode 已上架 Google Play（Android）与 App Store（iPhone 与 iPad）。
 
 ### Android 能运行重型本地构建或完整 IDE 吗？
 
@@ -69,7 +69,7 @@ NimoteCode 目前提供 Android 版。公开的 iOS App Store 版本正在准备
   <p><strong>把 Android 手机或平板变成开发工作区。</strong></p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=android_ide" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a>
-    <a href="/zh/download?utm_source=android_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">了解 iOS 可用性</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">下载 iOS 版</a>
     <a href="/zh/demo?utm_source=android_ide&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
   </p>
 </div>

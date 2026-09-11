@@ -1,15 +1,16 @@
 ---
 title: NimoteCode 中文文档 | 移动 IDE 使用指南
-description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手机代码编辑、终端、Git、AI Chat、LSP、调试、Tasks 与 Sync/Cache。
+description: 面向真实任务的 NimoteCode 中文指南：本地、Android 本地 Linux 与 SSH 工作区、手机代码编辑、终端、Git、AI Chat、LSP、调试、Tasks 与 Sync/Cache。
 ---
 
 # NimoteCode 中文文档
 
-这里的文档按任务组织，帮助你在手机或平板上操作本地或 SSH 项目。先进入当前需要的流程，而不是从冗长的功能手册开始。
+这里的文档按任务组织，帮助你在手机或平板上操作本地项目、Android 本地 Linux 或 SSH 项目。先进入当前需要的流程，而不是从冗长的功能手册开始。
 
 <div class="product-card-grid">
   <div class="product-card"><strong>首次打开工作区</strong><span><a href="/zh/docs/quick-start">快速开始</a> 带你完成连接、编辑与验证。</span></div>
   <div class="product-card"><strong>远程开发</strong><span>先配置 <a href="/zh/docs/ssh">SSH 工作区</a>，再在同一项目中使用 <a href="/zh/docs/terminal">终端</a>。</span></div>
+  <div class="product-card"><strong>Android 开发环境</strong><span>在受支持的 Android 设备上免 root 使用内置 Ubuntu，请查看 <a href="/zh/docs/local-linux">本地 Linux</a>。</span></div>
   <div class="product-card"><strong>安全交付</strong><span>通过 <a href="/zh/docs/source-control">Source Control</a> 审查变更，再根据团队流程提交或同步。</span></div>
   <div class="product-card"><strong>AI 辅助</strong><span>在开始多步骤任务前，先理解 <a href="/zh/docs/ai">AI Chat 与 Agent</a> 的使用边界。</span></div>
 </div>
@@ -19,6 +20,7 @@ description: 面向真实任务的 NimoteCode 中文指南：SSH 工作区、手
 | 目标 | 先看 | 再继续 |
 | --- | --- | --- |
 | 打开项目并验证一次修改 | [快速开始](/zh/docs/quick-start) | [编辑器](/zh/docs/editor) · [终端](/zh/docs/terminal) |
+| 在 Android 上运行 Linux 环境 | [Android 本地 Linux](/zh/docs/local-linux) | [终端](/zh/docs/terminal) · [Source Control](/zh/docs/source-control) |
 | 操作远程主机上的项目 | [SSH 工作区](/zh/docs/ssh) | [搜索](/zh/docs/search) · [Tasks](/zh/docs/tasks) |
 | 完成一次聚焦改动 | [编辑器](/zh/docs/editor) | [Source Control](/zh/docs/source-control) |
 | 在项目上下文中使用 AI | [AI Chat 与 Agent](/zh/docs/ai) | [配置指南](/zh/docs/configuration) |

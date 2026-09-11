@@ -1,13 +1,13 @@
 ---
 title: "适用于 SSH、Git 与 AI 的 iPad 编程工作区 | NimoteCode"
-description: 规划面向 SSH、编辑器、终端、Git 与 AI 的 iPad 编程工作流。NimoteCode 当前可在 Android 使用，iOS 公版仍在准备中。
+description: 规划面向 SSH、编辑器、终端、Git 与 AI 的 iPad 编程工作流。NimoteCode 可经 App Store 在 iPad 上运行，功能与 Android 版一致。
 ---
 
 # 用真实开发工作区在 iPad 上编程
 
 iPad 比手机有更大的屏幕空间，但在 iPad 上编程仍需要为它设计的工作区。你需要一种方式，在项目树、代码、终端输出与 Git 改动之间轻松切换，而不丢失任务脉络。
 
-NimoteCode 当前在 Android 上把所有这些工具汇成一个**移动 AI 开发工作台**：Editor + Explorer + SSH + Terminal + Git + AI Chat 与 Agent。iOS 公版仍在准备中，因此本页用于评估计划中的 iPad 工作流，而非推断当前 App Store 可用性。
+NimoteCode 在 iPad 上把所有这些工具汇成一个**移动 AI 开发工作台**：Editor + Explorer + SSH + Terminal + Git + AI Chat 与 Agent。现已上架 App Store，功能与 Android 版一致。
 
 <ImagePlaceholder image-key="ipadCoding" alt="iPad 编程工作区">
   <strong>图片占位 —— iPad 工作区</strong>
@@ -35,7 +35,7 @@ AI 在目标清晰时最有价值：解释陌生模块、把报错变成调试�
 <div class="seo-cta">
   <p><strong>看看面向 iPad 的工作区如何处理一次真实的远程改动。</strong></p>
   <p class="seo-cta-actions">
-    <a href="/zh/download?utm_source=ipad_coding&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">了解 iOS 可用性</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 iOS 版</a>
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=ipad_coding" class="home-page-btn tertiary" target="_blank" rel="noreferrer">下载 Android 版</a>
     <a href="/zh/demo?utm_source=ipad_coding&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
   </p>

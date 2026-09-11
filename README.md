@@ -10,27 +10,28 @@
 </p>
 
 <p align="center">
-  NimoteCode is a <strong>mobile IDE</strong> and <strong>SSH IDE</strong> for Android and iOS that brings real software-development workflows to mobile devices: local or SSH workspaces, a full code editor with split panes, in-app web preview, Terminal + Git, and a <strong>built-in AI coding agent that needs no CLI install</strong>. Android is available now; iOS is under App Store review.
+  NimoteCode is a <strong>mobile IDE</strong> and <strong>SSH IDE</strong> for Android and iOS that brings real software-development workflows to mobile devices: local and SSH workspaces, Android Local Linux, a full code editor with split panes, in-app preview, Terminal + Git, and a <strong>built-in AI coding agent that needs no CLI install</strong>. It is available now on Android and iOS.
 </p>
 
 <p align="center">
   <a href="https://nimotecode.com"><img src="https://img.shields.io/badge/Official-Website-4F46E5?logo=googlechrome&logoColor=white" alt="Visit the NimoteCode website"></a>
   <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode"><img src="https://img.shields.io/badge/Get_on-Google_Play-34A853?logo=googleplay&logoColor=white" alt="Get NimoteCode on Google Play"></a>
-  <img src="https://img.shields.io/badge/App_Store-Under_Review-0A84FF?logo=apple&logoColor=white" alt="NimoteCode is under review for the App Store">
+  <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253"><img src="https://img.shields.io/badge/Get_on-the_App_Store-0A84FF?logo=apple&logoColor=white" alt="Get NimoteCode on the App Store"></a>
   <a href="https://nimotecode.com/docs/quick-start"><img src="https://img.shields.io/badge/Read-Docs-06B6D4" alt="Read NimoteCode documentation"></a>
   <a href="https://discord.gg/tTxbpqYmhR"><img src="https://img.shields.io/badge/Join-Discord-5865F2?logo=discord&logoColor=white" alt="Join the NimoteCode Discord community"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/nimotecode/nimotecode-mobile-ide/stargazers"><img src="https://img.shields.io/github/stars/nimotecode/nimotecode-mobile-ide?style=social" alt="NimoteCode GitHub stars"></a>
-  <a href="https://github.com/nimotecode/nimotecode-mobile-ide/network/members"><img src="https://img.shields.io/github/forks/nimotecode/nimotecode-mobile-ide?style=social" alt="NimoteCode GitHub forks"></a>
+  <a href="https://github.com/mobiledevloperlab/nimotecode/stargazers"><img src="https://img.shields.io/github/stars/mobiledevloperlab/NimoteCode?style=social" alt="NimoteCode GitHub stars"></a>
+  <a href="https://github.com/mobiledevloperlab/nimotecode/network/members"><img src="https://img.shields.io/github/forks/mobiledevloperlab/NimoteCode?style=social" alt="NimoteCode GitHub forks"></a>
 </p>
 
 > NimoteCode is a **Mobile-first AI Development Environment**.  
-> **The latest Android version is available on Google Play. App Store availability is under review.**
+> **Version 1.1.7 (Build 41) is available now.** Android Local Linux is Android-only; see the [release notes](https://nimotecode.com/releases/) for platform details.
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode"><strong>Download for Android</strong></a> ·
+  <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253"><strong>Download for iOS</strong></a> ·
   <a href="https://nimotecode.com/docs/quick-start">Documentation</a> ·
   <a href="https://nimotecode.com/features">All features</a> ·
   <a href="https://nimotecode.com/pro">Pricing</a> ·
@@ -46,6 +47,7 @@
 - [Mobile development capabilities](#mobile-development-capabilities)
 - [Use your favorite coding tools from Terminal](#use-your-favorite-coding-tools-from-terminal)
 - [Download and platforms](#download-and-platforms)
+- [What's new in 1.1.7](#whats-new-in-117)
 - [Quick start](#quick-start)
 - [Frequently asked questions](#frequently-asked-questions)
 - [Links](#links)
@@ -53,12 +55,13 @@
 
 ## What is NimoteCode?
 
-NimoteCode is a **mobile IDE** and **SSH IDE** for Android and iOS. It turns a phone or tablet into a real development workspace: open a local project or connect to your Mac, Linux machine, or VPS over SSH, edit code in a full editor, run Terminal commands, review Git changes, preview web projects, and use a built-in AI coding agent — all inside one app.
+NimoteCode is a **mobile IDE** and **SSH IDE** for Android and iOS. It turns a phone or tablet into a real development workspace: open a local project, use bundled Ubuntu through Android Local Linux, or connect to your Mac, Linux machine, or VPS over SSH; then edit code, run Terminal commands, review Git changes, preview web projects, and use a built-in AI coding agent — all inside one app.
 
 It is built for developers who need to keep real work moving away from the desk: remote development, on-call fixes, code review, and AI-assisted coding on mobile.
 
 - **Mobile IDE**: a full coding workspace on your phone or tablet.
 - **Remote SSH development**: connect to your existing Mac/Linux machine or VPS.
+- **Android Local Linux**: use bundled Ubuntu with Bash, Git, and SSH on supported Android 8+ ARM64/x86_64 devices, without root access.
 - **Built-in AI agent**: the app's own coding agent runs inside your workspace — no Terminal workflow and no CLI to install, just connect your AI provider.
 - **Real developer tools**: editor, Terminal, Git, search, diagnostics, Tasks and debugging.
 - **Real development, anywhere**: continue work when you're away from your desk.
@@ -75,27 +78,28 @@ If the embedded player is unavailable in your GitHub client, [watch the AI Agent
 
 | Core capability | What it means for mobile coding |
 | --- | --- |
-| **Real workspaces** | Open local projects or connect to your actual development machine or VPS over SSH. |
+| **Real workspaces** | Open local projects, use Android Local Linux, or connect to your actual development machine or VPS over SSH. |
 | **Built-in AI coding agent** | Plan, inspect, edit, run, repair and verify multi-step tasks directly in the app — no Terminal workflow and no CLI to install on your host. |
 | **Real developer tools** | Use a code editor, Terminal, Git client, search, diagnostics, Tasks and debugging tools. |
 | **Built for mobile** | Continue meaningful phone or tablet coding when you are away from your desk. |
 
 ## Core features
 
-- Local and SSH workspaces for remote development
+- Local, Android Local Linux, and SSH workspaces for on-device or remote development
 - Explorer and full code editor, with split panes to view two files side by side
-- In-app Web Preview for local or remote web projects, plus image and media preview
+- In-app Web Preview for local or remote web projects, including current HTML contents before saving, plus image and media preview
 - Terminal for commands, logs, tests and configured CLI tools
 - Git Source Control for status, diffs, history and review workflows
-- Built-in AI Chat and AI coding Agent for project-aware assistance and tasks — bring your own AI provider, no CLI install
+- Built-in AI Chat and AI coding Agent for project-aware assistance and tasks — bring your own AI provider, no CLI install; configured external ACP agents also run in SSH workspaces
 - Search, diagnostics, Tasks, LSP, Debug and Sync / Cache workflows where configured
 
 ## Built-in AI coding agent (no install)
 
-The NimoteCode **AI Agent** is part of the app, not a terminal CLI you install on a host. Give it a product brief and it follows one loop: **plan → inspect the project → edit files → run checks → repair failures → review the Git result**. It works directly in your local or SSH workspace and hands back a reviewable Git change.
+The NimoteCode **AI Agent** is part of the app, not a terminal CLI you install on a host. Give it a product brief and it follows one loop: **plan → inspect the project → edit files → run checks → repair failures → review the Git result**. It works directly in your local, Android Local Linux, or SSH workspace and hands back a reviewable Git change.
 
 - No installation, no shell setup and no separate agent runtime.
 - Works on the project you already have open.
+- In an SSH workspace, you can also select a configured ACP-compatible external runtime, such as one provided through Claude Code or Codex CLI.
 - You connect your own AI provider and API key (BYOK); NimoteCode does not bundle model access.
 - **AI Chat** is available for quick, in-context questions; **AI Agent** is available with the 14-day Pro trial and Pro.
 
@@ -103,10 +107,10 @@ The NimoteCode **AI Agent** is part of the app, not a terminal CLI you install o
 
 ### Workspaces, editor and AI agent
 
-Browse, search and edit projects in local files or an SSH workspace, then use the built-in AI Agent for multi-step tasks.
+Browse, search and edit projects in local files, Android Local Linux, or an SSH workspace, then use the built-in AI Agent for multi-step tasks.
 
 <p align="center">
-  <img src="docs/public/screenshots/p1.png" alt="NimoteCode mobile IDE with local and SSH workspaces, code editor and AI Agent" width="720">
+  <img src="docs/public/screenshots/p1.png" alt="NimoteCode mobile IDE with local, Local Linux and SSH workspaces, code editor and AI Agent" width="720">
 </p>
 
 ### SSH terminal, Git and code diagnostics
@@ -127,22 +131,35 @@ Set breakpoints, inspect variables and call stacks, and synchronize remote works
 
 ## Use your favorite coding tools from Terminal
 
-NimoteCode's built-in Agent needs no installation. If you also want to run CLI-based AI tools on your own host, you can do that in the active local or SSH workspace — including [Codex](https://nimotecode.com/codex-from-phone), [Claude Code](https://nimotecode.com/claude-code-from-phone), Kimi and similar terminal tools. These are optional and separate from the built-in Agent. For Codex mobile and Claude Code mobile workflows, NimoteCode keeps the CLI, project files, terminal output and Git review together. It does not bundle model subscriptions: configure your own providers, accounts or BYOK access where applicable.
+NimoteCode's built-in Agent needs no installation. If you also want to run CLI-based AI tools on your own host, you can do that in the active local or SSH workspace — including [Codex](https://nimotecode.com/codex-from-phone), [Claude Code](https://nimotecode.com/claude-code-from-phone), Kimi and similar terminal tools. These are optional and separate from the built-in Agent. Android Local Linux can also host tools you install yourself. For Codex mobile and Claude Code mobile workflows, NimoteCode keeps the CLI, project files, terminal output and Git review together. It does not bundle model subscriptions: configure your own providers, accounts or BYOK access where applicable.
 
 ## Download and platforms
 
 - **Android:** available now on [Google Play](https://play.google.com/store/apps/details?id=com.nimote.nimotecode).
-- **iPhone and iPad:** under App Store review; availability is announced on the [Download page](https://nimotecode.com/download).
+- **iPhone and iPad:** available now on the [App Store](https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253).
 - **Official website:** https://nimotecode.com
-- **GitHub Releases (legacy / historical builds):** https://github.com/aounma/nimotecode-ai-powered-mobile-ide/releases
+- **GitHub (repository & releases):** https://github.com/mobiledevloperlab/nimotecode
 - **Guide:** [Use Android as a remote IDE with Tailscale and NimoteCode](https://nimotecode.com/blog/tailscale-ssh-android-mac-linux)
 
-The latest Android release is always on Google Play. App Store availability will be announced after approval.
+The latest Android release is always on Google Play and the iOS release on the App Store.
+
+## What's new in 1.1.7
+
+**Version 1.1.7 (Build 41)** is available now. Highlights:
+
+- **Android Local Linux workspace.** Run a bundled Ubuntu environment with Bash, Git and SSH on supported ARM64 and x86_64 Android devices — no root required. Available on Android only, not on iOS.
+- **HTML snapshot preview.** Preview the current HTML editor contents, including unsaved changes, with workspace CSS, JavaScript and image assets.
+- **Link buttons.** Open web links from Terminal, AI replies and tool output through one shared browser action.
+- **External ACP agents.** Select and run ACP-compatible external agents inside an SSH workspace, alongside the built-in agent.
+- **Unified SSH login environment.** Terminal, ACP servers, agent subprocesses, Tasks, Debug, language servers, Git and external CLIs now share one remote environment resolver, with your real shell and custom variables inherited correctly.
+- **Safer diagnostics.** API keys, tokens, secrets and passwords are redacted from logs and agent startup diagnostics.
+
+See the [full 1.1.7 release notes](https://nimotecode.com/releases/) for the complete list of improvements and fixes.
 
 ## Quick start
 
-1. Install NimoteCode from Google Play. App Store availability is under review.
-2. Open a [local workspace or connect over SSH](https://nimotecode.com/docs/ssh).
+1. Install NimoteCode from Google Play or the App Store.
+2. Open a [local workspace or connect over SSH](https://nimotecode.com/docs/ssh), or use [Android Local Linux](https://nimotecode.com/docs/local-linux) on a supported device.
 3. [Edit code or start an AI Agent task](https://nimotecode.com/docs/ai).
 4. Run the project or checks in [Terminal](https://nimotecode.com/docs/terminal).
 5. Review changes in [Git Source Control](https://nimotecode.com/docs/source-control).
@@ -151,19 +168,19 @@ The latest Android release is always on Google Play. App Store availability will
 
 ### Is NimoteCode a full IDE or just an SSH client?
 
-NimoteCode is a full mobile IDE, not only an SSH client. It can open a local project or an SSH workspace and brings Explorer, Editor, Terminal, Git workflows, AI assistance and diagnostic panels into the same project context.
+NimoteCode is a full mobile IDE, not only an SSH client. It can open a local project, use Android Local Linux, or connect to an SSH workspace, and brings Explorer, Editor, Terminal, Git workflows, AI assistance and diagnostic panels into the same project context.
 
 ### Is NimoteCode free?
 
-Yes. Free includes local and SSH workspaces, the editor, baseline Terminal, Git review, AI Chat and Tasks. AI Agent and remote search are available during the 14-day, per-device Pro trial and with Pro.
+Yes. Free includes local, Android Local Linux and SSH workspaces, the editor, baseline Terminal, Git review, AI Chat and Tasks. Local Linux requires Android 8+ on a 64-bit ARM64 or x86_64 device and is unavailable on iOS. AI Agent and remote search are available during the 14-day, per-device Pro trial and with Pro.
 
 ### Does the AI agent run in the Terminal or require a CLI install?
 
-No. The AI Agent is built into the app and runs directly in your local or SSH workspace. You do not install a CLI or set up a shell agent. You only connect your own AI provider and API key (BYOK).
+No. The AI Agent is built into the app and runs directly in your local, Android Local Linux, or SSH workspace. You do not install a CLI or set up a shell agent. You only connect your own AI provider and API key (BYOK).
 
 ### Does NimoteCode work on iPhone and iPad?
 
-Android is available now. iOS is under App Store review; availability will be announced on the [Download page](https://nimotecode.com/download).
+Yes. NimoteCode is available on the [App Store](https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253). Android Local Linux is the platform-specific exception and is not available on iPhone or iPad.
 
 ### Which AI providers can I configure?
 
@@ -187,9 +204,8 @@ SSH clients focus on remote access, and terminal AI tools focus on one agent. Ni
 
 ## Repository and release notes
 
-- This repository is the NimoteCode website repository (docs, landing pages and public content), not the private application source code repository.
-- GitHub Releases are for legacy / historical builds only.
-- Google Play is the current official release channel; App Store availability is under review.
+- This repository is the NimoteCode website repository (docs, landing pages and public content), not the private application source code.
+- The [NimoteCode GitHub repo](https://github.com/mobiledevloperlab/nimotecode) is the project's public home; Google Play and the App Store are the official release channels.
 - NimoteCode is currently **closed source**.
 - See the [release notes](https://nimotecode.com/releases/) for the complete change history.
 

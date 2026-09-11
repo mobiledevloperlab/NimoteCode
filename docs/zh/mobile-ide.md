@@ -1,13 +1,13 @@
 ---
 title: "适用于 SSH、Git 与 AI 编程的移动 IDE | NimoteCode"
-description: NimoteCode 是面向 Android 的移动 AI 开发工作台，集 SSH、双栏编辑、应用内 Web 预览、Git 与 AI 编程于同一个工作区。
+description: NimoteCode 是面向 Android 与 iOS 的移动 AI 开发工作台，集 Android 本地 Linux、SSH、双栏编辑、HTML 预览、Git 与 AI 编程于同一个工作区。
 ---
 
 # 适用于 SSH、Git 与 AI 编程的移动 IDE
 
 大多数移动编码工具只解决其中一环：打开文件、连接服务器或用 SSH 运行命令。而一个**移动 IDE** 应该把完整开发闭环串在一起：浏览项目、理解代码、做出修改、完成验证，并审查将要交付的内容。
 
-NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor、Explorer、SSH、应用内 Web 与媒体预览、Terminal、Git、AI Chat 与 Agent 放进同一个工作区；iOS 公版仍在准备中。
+NimoteCode 是一个**移动 AI 开发工作台**。Android 与 iOS 版都将 Editor、Explorer、SSH、应用内 Web 与媒体预览、Terminal、Git、AI Chat 与 Agent 放进同一个工作区。在受支持的 Android 设备上，本地 Linux 还提供免 root 的内置 Ubuntu 环境，包含 Bash、Git 和 SSH。
 
 <ImagePlaceholder image-key="mobileIde" alt="NimoteCode 移动 IDE">
   <strong>图片占位 —— 移动 IDE 总览</strong>
@@ -30,9 +30,9 @@ NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor
 
 ## 完整工作流，无需切换应用
 
-当项目在设备上时从本地项目开始，或通过 [SSH 工作区](/zh/docs/ssh) 连接远程开发机或服务器。接着在编辑器中双栏打开文件，需要时预览本地或远程 Web 项目，在[终端](/zh/docs/terminal)中运行测试或排查命令，并用[源代码管理](/zh/docs/source-control)查看改动产生的 diff。
+当项目在设备上时从本地项目开始；在受支持的 Android 设备上可使用本地 Linux 的内置 Ubuntu；也可通过 [SSH 工作区](/zh/docs/ssh) 连接远程开发机或服务器。接着在编辑器中双栏打开文件，需要时直接预览未保存的 HTML 内容或本地、远程 Web 项目，在[终端](/zh/docs/terminal)中运行测试或排查命令，并用[源代码管理](/zh/docs/source-control)查看改动产生的 diff。
 
-当任务需要更多上下文时，[AI Chat 与 Agent](/zh/docs/ai)可以解释代码或规划改动。AI Agent 面向受控的多步骤任务；你可以检查它提出的内容，把最终决定权留在自己手中。
+当任务需要更多上下文时，[AI Chat 与 Agent](/zh/docs/ai)可以解释代码或规划改动。AI Agent 面向受控的多步骤任务；在 SSH 工作区中，还可使用已配置的兼容外部 ACP 运行时。你可以检查它提出的内容，把最终决定权留在自己手中。
 
 ## 为移动端限制而设计
 
@@ -56,13 +56,13 @@ NimoteCode 是一个**移动 AI 开发工作台**。当前 Android 版将 Editor
 
 ### NimoteCode 支持 Android 和 iOS 吗？
 
-NimoteCode 目前提供 Android 版；iOS 公版正在 App Store 准备中。可在[下载](/zh/download)查看最新可用状态。
+NimoteCode 已上架 Google Play（Android）与 App Store（iPhone 与 iPad）。
 
 <div class="seo-cta">
   <p><strong>带上真实工作流，而不只是一个终端。</strong>查看移动 IDE 的实际效果，或选择你的平台。</p>
   <p class="seo-cta-actions">
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=mobile_ide" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a>
-    <a href="/zh/download?utm_source=mobile_ide&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn tertiary">了解 iOS 可用性</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn tertiary" target="_blank" rel="noreferrer">下载 iOS 版</a>
     <a href="/zh/demo?utm_source=mobile_ide&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">观看演示</a>
   </p>
 </div>

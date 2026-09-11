@@ -11,6 +11,12 @@ This is the public record of notable product updates. For setup help, use the [d
 
 ## 2026
 
+### Version 1.1.7 · September 12, 2026
+
+This release adds an Android Local Linux development environment, improves HTML and link previews, and makes Editor, AI, and Task operations more reliable. It also brings external ACP agents and a unified SSH login environment.
+
+[Read the complete 1.1.7 release notes →](/releases/)
+
 ### Version 1.1.6 · September 9, 2026
 
 This release makes getting started clearer with first-launch onboarding, defaults the editor to a code-oriented monospace font, refines subscription and theme presentation, and fixes editor, in-app browser, Git status, and iOS keyboard-input issues.
@@ -19,7 +25,7 @@ This release makes getting started clearer with first-launch onboarding, default
 
 ### Current release channel
 
-- **Compatibility:** Android is the currently available public release channel. iPhone and iPad availability will be announced on [Download](/download) when it changes.
+- **Compatibility:** NimoteCode is available on Android via [Google Play](https://play.google.com/store/apps/details?id=com.nimote.nimotecode) and on iPhone and iPad via the [App Store](https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253).
 - **Pro trial:** New users receive a 14-day, per-device Pro trial.
 - **AI providers:** AI Chat and Agent use your configured provider and API key (BYOK); provider access and billing remain with that provider.
 

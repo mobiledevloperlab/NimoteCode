@@ -1,11 +1,11 @@
 ---
-title: 本地与 SSH 工作区 | NimoteCode 移动 IDE
+title: 本地与远程 SSH 工作区 | NimoteCode 移动 IDE
 description: 在 NimoteCode 中打开本地项目或通过 SSH 连接远程项目，并在明确的项目根路径中完成工作。
 ---
 
-# 本地与 SSH 工作区
+# 本地与远程 SSH 工作区
 
-NimoteCode 从工作区开始：可以是在设备中保存的本地项目，也可以是通过 SSH 访问的远程项目。Explorer、编辑器和终端都会保持指向同一项目根路径，让任务从检查到验证始终可理解。
+NimoteCode 从工作区开始：可以是在设备中保存的本地项目，也可以是通过 SSH 访问的远程项目。Explorer、编辑器和终端都会保持指向同一项目根路径，让任务从检查到验证始终可理解。要在 Android 中使用内置 Ubuntu，请查看 [Android 本地 Linux](/zh/docs/local-linux)。
 
 <ImagePlaceholder image-key="localWorkspace" alt="NimoteCode 手机上的本地工作区">
   <strong>本地工作区</strong>

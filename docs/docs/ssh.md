@@ -1,11 +1,11 @@
 ---
-title: Local and SSH Workspaces | NimoteCode Mobile IDE
+title: Local and Remote SSH Workspaces | NimoteCode Mobile IDE
 description: Open a local project or connect to a remote project with SSH in NimoteCode, then work from one clear project root.
 ---
 
-# Local and SSH Workspaces
+# Local and Remote SSH Workspaces
 
-NimoteCode starts with a workspace: a local project stored on your device or a remote project reached through SSH. Explorer, Editor and Terminal stay connected to the same project root, so a task remains understandable from first inspection through verification.
+NimoteCode starts with a workspace: a local project stored on your device or a remote project reached through SSH. Explorer, Editor and Terminal stay connected to the same project root, so a task remains understandable from first inspection through verification. For bundled Ubuntu on Android, see [Android Local Linux](/docs/local-linux).
 
 <ImagePlaceholder image-key="localWorkspace" alt="Local workspace in NimoteCode on phone">
   <strong>Local workspace</strong>

@@ -1,13 +1,13 @@
 ---
 title: "iPad Coding Workspace for SSH, Git and AI | NimoteCode"
-description: "Plan an iPad coding workflow for SSH, editor, terminal, Git and AI. NimoteCode is currently available for Android while its public iOS release is being prepared."
+description: "Plan an iPad coding workflow for SSH, editor, terminal, Git and AI. NimoteCode runs on iPad via the App Store, with the same features as its Android release."
 ---
 
 # iPad Coding with a Real Development Workspace
 
 An iPad gives you more screen space than a phone, but coding from iPad still works best when the workspace is designed for it. You need an easy way to move between the project tree, code, terminal output and Git changes without losing the thread of the task.
 
-NimoteCode brings those tools together on Android as a **Mobile AI Development Workspace**: Editor + Explorer + SSH + Terminal + Git + AI Chat and Agent. Its public iOS release is being prepared, so use this page to assess the planned iPad workflow rather than to infer current App Store availability.
+NimoteCode brings those tools together on iPad as a **Mobile AI Development Workspace**: Editor + Explorer + SSH + Terminal + Git + AI Chat and Agent. It is available on the App Store with the same feature set as the Android release.
 
 <ImagePlaceholder image-key="ipadCoding" alt="iPad coding workspace">
   <strong>Image placeholder — iPad workspace</strong>
@@ -35,7 +35,7 @@ AI is most useful when it has a clear job: explain an unfamiliar module, turn an
 <div class="seo-cta">
   <p><strong>See how an iPad-friendly workspace handles a real remote change.</strong></p>
   <p class="seo-cta-actions">
-    <a href="/download?utm_source=ipad_coding&utm_medium=organic&utm_campaign=ios_interest" class="home-page-btn primary">Check iOS availability</a>
+    <a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn primary" target="_blank" rel="noreferrer">Download for iOS</a>
     <a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=organic&utm_campaign=ipad_coding" class="home-page-btn tertiary" target="_blank" rel="noreferrer">Download for Android</a>
     <a href="/demo?utm_source=ipad_coding&utm_medium=organic&utm_campaign=watch_demo" class="home-page-btn secondary">Watch Demo</a>
   </p>

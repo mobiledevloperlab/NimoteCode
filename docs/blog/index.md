@@ -52,7 +52,7 @@ Practical guides and engineering notes on coding from a phone — over SSH, with
 </div>
 
 <div class="seo-cta">
-  <p><strong>Read the theory, then try the workflow. Download NimoteCode for Android.</strong></p>
+  <p><strong>Read the theory, then try the workflow. Download NimoteCode for Android and iOS.</strong></p>
   <p class="seo-cta-actions">
     <a href="/download?utm_source=blog_index&utm_medium=organic&utm_campaign=blog_download" class="home-page-btn primary">Download NimoteCode</a>
     <a href="/docs/quick-start?utm_source=blog_index&utm_medium=organic&utm_campaign=blog_quickstart" class="home-page-btn secondary">Read the Quick Start</a>

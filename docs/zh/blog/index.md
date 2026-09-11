@@ -52,7 +52,7 @@ description: "来自 NimoteCode 团队的移动编程、AI 编程、远程开发
 </div>
 
 <div class="seo-cta">
-  <p><strong>看完原理，就试试工作流。在 Android 上下载 NimoteCode。</strong></p>
+  <p><strong>看完原理，就试试工作流。在 Android 与 iOS 上下载 NimoteCode。</strong></p>
   <p class="seo-cta-actions">
     <a href="/zh/download?utm_source=blog_index&utm_medium=organic&utm_campaign=blog_download" class="home-page-btn primary">下载 NimoteCode</a>
     <a href="/zh/docs/quick-start?utm_source=blog_index&utm_medium=organic&utm_campaign=blog_quickstart" class="home-page-btn secondary">阅读快速开始</a>

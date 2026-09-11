@@ -2,7 +2,7 @@
 layout: home
 title: NimoteCode | 面向远程开发的真实移动 IDE
 titleTemplate: false
-description: NimoteCode 是面向远程开发的真实移动 IDE：Editor、Explorer、SSH、Terminal、Git、Preview 与 AI Agent，适用于 Android；iOS 可用性见下载页。
+description: NimoteCode 是移动开发工作区：Android 本地 Linux、Editor、SSH、Terminal、Git、Preview 与 AI Agent，适用于手机与平板。
 ---
 
 <section class="home-page-hero">
@@ -11,9 +11,9 @@ description: NimoteCode 是面向远程开发的真实移动 IDE：Editor、Expl
       <p class="home-page-badge">移动开发工作区</p>
       <div class="home-page-logo-lockup"><img src="/app_icon.png" alt="NimoteCode" class="home-page-logo" width="1024" height="1024" decoding="async"><span class="home-page-brand">NimoteCode</span></div>
       <h1 class="home-page-title">面向远程开发的<br><em>真实移动 IDE。</em></h1>
-      <p class="home-page-subtitle">Editor、Explorer、SSH、Terminal、Git、Preview 与 AI Agent —— 为手机和平板上的真实开发而打造。</p>
-      <div class="home-page-actions home-page-actions-hero"><a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 NimoteCode</a><a href="#product-demo" class="home-page-btn secondary">观看演示</a><a href="https://github.com/mobiledevloperlab" class="home-page-btn secondary home-page-btn-weak" target="_blank" rel="noreferrer">查看 GitHub</a></div>
-      <a class="home-page-availability-link" href="/zh/download?utm_source=zh_homepage&utm_medium=website&utm_campaign=ios_availability">iOS 正在 App Store 审核上架中，了解可用性 <span aria-hidden="true">→</span></a>
+      <p class="home-page-subtitle">Android 本地 Linux、Editor、SSH、Terminal、Git、Preview 与 AI Agent —— 为手机和平板上的真实开发而打造。</p>
+      <div class="home-page-actions home-page-actions-hero"><a href="https://play.google.com/store/apps/details?id=com.nimote.nimotecode&utm_source=nimotecode&utm_medium=website&utm_campaign=homepage_hero" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 Android 版</a><a href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" class="home-page-btn primary" target="_blank" rel="noreferrer">下载 iOS 版</a><a href="#product-demo" class="home-page-btn secondary">观看演示</a><a href="https://github.com/mobiledevloperlab" class="home-page-btn secondary home-page-btn-weak" target="_blank" rel="noreferrer">查看 GitHub</a></div>
+      <a class="home-page-availability-link" href="https://apps.apple.com/app/nimotecode-ssh-client-ide/id6776158253" target="_blank" rel="noreferrer">现已上架 App Store <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
@@ -32,8 +32,8 @@ description: NimoteCode 是面向远程开发的真实移动 IDE：Editor、Expl
 </section>
 <section class="home-page-section home-page-trust-section" aria-label="产品事实">
   <div class="home-page-trust">
-    <div class="home-page-trust-item"><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4 12 14l-3-3"/></svg></span>Android 现已可用</div>
-    <div class="home-page-trust-item"><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8 20.5h8"/><path d="M12 16.5v4"/></svg></span>SSH + 本地工作区</div>
+    <div class="home-page-trust-item"><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.1V12a10 10 0 1 1-5.9-9.1"/><path d="M22 4 12 14l-3-3"/></svg></span>Android 与 iOS 均已上线</div>
+    <div class="home-page-trust-item"><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8 20.5h8"/><path d="M12 16.5v4"/></svg></span>Android 本地 Linux + SSH</div>
     <div class="home-page-trust-item"><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>自带 AI Provider</div>
     <div class="home-page-trust-item"><span class="home-page-trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8l1.7 4.5 4.5 1.7-4.5 1.7-1.7 4.5-1.7-4.5-4.5-1.7 4.5-1.7 1.7-4.5z"/><path d="M19.4 2.6l.9 2.4 2.4.9-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9.9-2.4z"/></svg></span>AI Chat 与 Agent</div>
   </div>
@@ -42,10 +42,10 @@ description: NimoteCode 是面向远程开发的真实移动 IDE：Editor、Expl
   <div class="home-page-section-head home-page-section-head-centered">
     <p class="home-page-eyebrow">一个工作区，全部能力</p>
     <h2 class="home-page-section-title">从远程工作区到 AI，都在一个移动 IDE 里。</h2>
-    <p class="home-page-section-copy">NimoteCode 不只是一个远程终端，也不只是 AI Agent 的配套。它是一套移动开发工作区：你可以检查代码、编辑文件、运行命令、审查 Git 改动，并在 Agent 需要人来判断时继续接手。</p>
+    <p class="home-page-section-copy">NimoteCode 是一套移动开发工作区：你可以检查代码、编辑文件、运行命令、审查 Git 改动，并在 Agent 需要人来判断时继续接手；可使用 SSH 主机，也可在 Android 本地 Linux 中工作。</p>
   </div>
   <ul class="home-page-cap-strip">
-    <li>远程工作区</li>
+    <li>本地 Linux / SSH 工作区</li>
     <li>真实代码编辑器</li>
     <li>终端与 SSH</li>
     <li>Git 工作流</li>
@@ -62,7 +62,7 @@ description: NimoteCode 是面向远程开发的真实移动 IDE：Editor、Expl
         <p class="home-page-eyebrow">远程工作区</p>
       </div>
       <h2 class="home-page-pillar-title">你的开发机器，随处可用。</h2>
-      <p class="home-page-pillar-copy">通过 SSH 在手机或平板上打开 Mac、Linux 机器或服务器上的真实项目——并配有真实的代码编辑器。</p>
+      <p class="home-page-pillar-copy">通过 SSH 打开 Mac、Linux 机器或服务器上的真实项目，或在受支持的 Android 设备上使用内置 Ubuntu——并配有真实的代码编辑器。</p>
       <ul class="home-page-pillar-points">
         <li>远程文件</li>
         <li>代码编辑器</li>
@@ -109,8 +109,13 @@ description: NimoteCode 是面向远程开发的真实移动 IDE：Editor、Expl
     <h2 class="home-page-section-title">不止是一个远程终端。</h2>
     <p class="home-page-section-copy">有些移动开发工具专注于 SSH 访问，有些专注于监控 AI 编码 Agent。NimoteCode 把编辑器、远程工作区、终端、Git、预览与 AI 工作流整合到同一个移动开发环境中。</p>
   </div>
+  <div class="home-page-compare-cards">
+    <article class="home-page-compare-card"><p class="home-page-compare-card-kicker">SSH 客户端</p><h3>访问远程 Shell。</h3><p>只需要运行命令和访问服务器时适用。</p></article>
+    <article class="home-page-compare-card"><p class="home-page-compare-card-kicker">AI AGENT 终端</p><h3>从终端驱动 Agent。</h3><p>主要工作流留在远程 CLI 时适用。</p></article>
+    <article class="home-page-compare-card home-page-compare-card--nimote"><p class="home-page-compare-card-kicker">NIMOTECODE</p><h3>在一个工作区完成工作。</h3><p>编辑器、本地 Linux、SSH、终端、Git、预览与 AI 始终关联。</p></article>
+  </div>
   <div class="home-page-section-cta">
-    <a href="/zh/compare/mobile-ai-development-tools" class="home-page-btn primary">对比移动开发工具 <span aria-hidden="true">→</span></a>
+    <a href="/zh/compare/mobile-ai-development-tools" class="home-page-btn primary">查看详细对比 <span aria-hidden="true">→</span></a>
   </div>
 </section>
 <section class="home-page-section home-page-use-case-section">

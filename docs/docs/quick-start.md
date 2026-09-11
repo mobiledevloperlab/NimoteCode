@@ -1,11 +1,11 @@
 ---
 title: Quick Start | NimoteCode Mobile IDE
-description: Open a local or SSH workspace in NimoteCode, edit a file, run a verification command and choose the next mobile development workflow.
+description: Open a local, Android Local Linux, or SSH workspace in NimoteCode, edit a file, run a verification command and choose the next mobile development workflow.
 ---
 
 # Quick Start
 
-Use this guide to prove the workflow first: open a project, make one small edit and verify it in the terminal. It works with a local project or an SSH workspace.
+Use this guide to prove the workflow first: open a project, make one small edit and verify it in the terminal. It works with a local project, an SSH workspace, or Android Local Linux on a supported device.
 
 <ImagePlaceholder image-key="quickStart" alt="Local workspace in NimoteCode on phone">
   <strong>Image placeholder — complete the first mobile workflow</strong>
@@ -14,7 +14,7 @@ Use this guide to prove the workflow first: open a project, make one small edit 
 
 ## 1. Open a workspace
 
-Choose **Local Explorer** for a project on your device, or **Remote Explorer** for a remote host. For an SSH workspace, enter the host, port and username; then choose password, key file or pasted private key authentication. Confirm the project root before you start working.
+Choose **Local Explorer** for a project on your device, **Remote Explorer** for a remote host, or **Local Linux** for bundled Ubuntu on a supported Android 8+ ARM64/x86_64 device. Local Linux needs no root access and is not available on iOS; see [Android Local Linux](/docs/local-linux) for its setup and lifecycle. For an SSH workspace, enter the host, port and username; then choose password, key file or pasted private key authentication. Confirm the project root before you start working.
 
 ## 2. Open, edit and save a file
 

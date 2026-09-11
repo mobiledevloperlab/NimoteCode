@@ -140,7 +140,7 @@ NimoteCode 是为 Android 与 iOS 打造的移动 AI 开发工作区,把本地�
 
 并不存在一个放之四海皆准的"最佳移动 IDE",因为不同类别解决的是不同问题。如果你只需要远程终端,SSH 客户端就是正确答案;如果团队已经在运行云端开发环境,那就用它。但如果你想要的是完整闭环——浏览、编辑、运行、审查、交付——并且想在口袋里完成,请评估那些"表现得像工作区"而非"表现得像单一功能"的工具。
 
-这正是 NimoteCode 要填补的缺口。Android 版现已可用,iOS 正在 App Store 审核上架中。工作区免费下载——从你的手机跑一次真实的远程工作流,看看它是否会改变你对"移动开发"的定义。
+这正是 NimoteCode 要填补的缺口。现已在 Google Play（Android）与 App Store（iPhone 与 iPad）上线。工作区免费下载——从你的手机跑一次真实的远程工作流,看看它是否会改变你对"移动开发"的定义。
 
 - [了解 NimoteCode 的功能](/zh/features)
 - [对比移动 IDE 与 AI 编码工具](/zh/compare/mobile-ai-development-tools)

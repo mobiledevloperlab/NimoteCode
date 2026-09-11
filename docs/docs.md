@@ -1,15 +1,16 @@
 ---
 title: NimoteCode Documentation | Mobile IDE Guides
-description: Practical NimoteCode guides for SSH workspaces, mobile code editing, terminal, Git, AI Chat and Agent, LSP, debugging, tasks and sync/cache.
+description: Practical NimoteCode guides for local, Android Local Linux and SSH workspaces, mobile code editing, terminal, Git, AI Chat and Agent, LSP, debugging, tasks and sync/cache.
 ---
 
 # NimoteCode Documentation
 
-Short, task-oriented guides for working in a local or SSH project from a mobile device. Start with the workflow you need—not a long feature manual.
+Short, task-oriented guides for working in a local project, Android Local Linux, or an SSH project from a mobile device. Start with the workflow you need—not a long feature manual.
 
 <div class="product-card-grid">
   <div class="product-card"><strong>New workspace</strong><span><a href="/docs/quick-start">Quick Start</a> takes you from connection to a verified edit.</span></div>
   <div class="product-card"><strong>Remote work</strong><span>Set up <a href="/docs/ssh">SSH Workspace</a>, then use <a href="/docs/terminal">Terminal</a> in the same project context.</span></div>
+  <div class="product-card"><strong>Android development environment</strong><span>Use <a href="/docs/local-linux">Local Linux</a> for bundled Ubuntu without root on supported Android devices.</span></div>
   <div class="product-card"><strong>Safe delivery</strong><span>Review changes with <a href="/docs/source-control">Source Control</a> before you commit or sync.</span></div>
   <div class="product-card"><strong>AI assistance</strong><span>Understand the boundary between <a href="/docs/ai">AI Chat and Agent</a> before running a multi-step task.</span></div>
 </div>
@@ -19,6 +20,7 @@ Short, task-oriented guides for working in a local or SSH project from a mobile 
 | Goal | Start here | Then continue with |
 | --- | --- | --- |
 | Open a project and make a verified edit | [Quick Start](/docs/quick-start) | [Editor](/docs/editor) · [Terminal](/docs/terminal) |
+| Run a Linux environment on Android | [Android Local Linux](/docs/local-linux) | [Terminal](/docs/terminal) · [Source Control](/docs/source-control) |
 | Work on a remote host | [SSH Workspace](/docs/ssh) | [Search](/docs/search) · [Tasks](/docs/tasks) |
 | Prepare a focused change | [Editor](/docs/editor) | [Source Control](/docs/source-control) |
 | Get AI help in context | [AI Chat and Agent](/docs/ai) | [Configuration](/docs/configuration) |

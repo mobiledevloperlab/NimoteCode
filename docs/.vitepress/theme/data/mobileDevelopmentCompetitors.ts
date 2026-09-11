@@ -71,7 +71,7 @@ export interface Competitor {
   lastVerified: string
 }
 
-export const LAST_VERIFIED = '2026-09-09'
+export const LAST_VERIFIED = '2026-09-12'
 
 export const featureRows: FeatureRow[] = [
   { key: 'platform', kind: 'info', label: { en: 'Platform', zh: '平台' } },
@@ -141,8 +141,8 @@ export const categories: Array<{ id: CategoryId; title: Localized; description: 
     id: 'mobile-workspace',
     title: { en: 'Full mobile development workspace', zh: '完整移动开发工作区' },
     description: {
-      en: 'A workspace keeps the project, editor, terminal, Git review, preview and AI in the same mobile context, so the phone or tablet itself behaves like a development environment.',
-      zh: '工作区把项目、编辑器、终端、Git 审查、预览与 AI 放在同一个移动上下文中，让手机或平板本身就像一套开发环境。'
+      en: 'A workspace keeps the project, editor, terminal, Git review, preview and AI in the same mobile context; on Android, it can also provide a bundled Local Linux environment.',
+      zh: '工作区把项目、编辑器、终端、Git 审查、预览与 AI 放在同一个移动上下文中；在 Android 上还可提供内置的本地 Linux 环境。'
     },
     examples: 'NimoteCode'
   }
@@ -160,13 +160,13 @@ export const competitors: Competitor[] = [
       zh: '完整移动开发工作区 / 移动 IDE'
     },
     summary: {
-      en: 'NimoteCode treats the phone or tablet itself as the development workspace, combining File Explorer, code editor, terminal, Git, AI and SSH remote development in one mobile-native interface.',
-      zh: 'NimoteCode 把手机或平板本身当作开发工作区，将文件浏览、代码编辑器、终端、Git、AI 与 SSH 远程开发融合在一个移动原生界面中。'
+      en: 'NimoteCode treats the phone or tablet itself as the development workspace, combining File Explorer, code editor, terminal, Git, AI, SSH remote development, and Android Local Linux in one mobile-native interface.',
+      zh: 'NimoteCode 把手机或平板本身当作开发工作区，将文件浏览、代码编辑器、终端、Git、AI、SSH 远程开发与 Android 本地 Linux 融合在一个移动原生界面中。'
     },
-    platforms: { en: 'Android (iOS in App Store review)', zh: 'Android（iOS 审核中）' },
+    platforms: { en: 'Android & iOS', zh: 'Android 与 iOS' },
     openSource: { en: 'No — closed source', zh: '否——闭源' },
     features: {
-      platform: info('Android (iOS in review)', 'Android（iOS 审核中）'),
+      platform: info('Android & iOS', 'Android 与 iOS'),
       directSshWorkspace: yes(),
       fileExplorer: yes(),
       codeEditor: yes(),
@@ -175,15 +175,16 @@ export const competitors: Competitor[] = [
       terminal: yes(),
       gitDiff: yes({ en: 'Review free; write actions with Pro', zh: '审查免费；写入操作需 Pro' }),
       aiChatAgent: yes(),
-      claudeCodexWorkflow: partial(viaSshTerminal),
-      agentAwareStatus: yes({ en: 'NimoteCode AI Agent', zh: 'NimoteCode AI Agent' }),
-      persistentSessions: yes({ en: 'Reconnect-aware SSH', zh: '断线感知 SSH' }),
-      webAppPreview: yes(),
+      claudeCodexWorkflow: yes({ en: 'External ACP in SSH workspaces; terminal workflows', zh: 'SSH 工作区中的外部 ACP；也支持终端工作流' }),
+      agentAwareStatus: yes({ en: 'Built-in Agent and external ACP sessions', zh: '内置 Agent 与外部 ACP 会话' }),
+      persistentSessions: yes({ en: 'Reconnect-aware SSH and managed Local Linux', zh: '断线感知 SSH 与受管理的本地 Linux' }),
+      webAppPreview: yes({ en: 'Includes unsaved HTML snapshot preview', zh: '支持未保存 HTML 快照预览' }),
       desktopCompanionRequired: info('No', '否'),
       openSource: info('No — closed source', '否——闭源')
     },
     sources: [
       { label: 'NimoteCode website', url: 'https://nimotecode.com/' },
+      { label: 'NimoteCode release notes', url: 'https://nimotecode.com/releases/' },
       {
         label: 'NimoteCode on Google Play',
         url: 'https://play.google.com/store/apps/details?id=com.nimote.nimotecode'
@@ -453,15 +454,15 @@ export const comparisonCopy = {
       'This comparison is based on publicly available official documentation, product websites, app-store listings, and project repositories. Features may change over time.',
     methodologyLastReviewed: 'Last reviewed: September 2026',
     disclaimer:
-      'Feature availability and platform support change frequently. This comparison was last reviewed on September 9, 2026 and is based on publicly available vendor documentation, official websites and app-store listings.',
+      'Feature availability and platform support change frequently. This comparison was last reviewed on September 12, 2026 and is based on publicly available vendor documentation, official websites and app-store listings.',
     verifiedLabel: 'Last verified',
     midCtaTitle: 'Need more than a terminal?',
     midCtaBody:
-      'Explore a full mobile development workspace with code editing, SSH, Git, Terminal and AI.',
+      'Explore a full mobile development workspace with code editing, Android Local Linux, SSH, Git, Terminal and AI.',
     midCtaButton: 'Explore NimoteCode',
-    bottomCtaTitle: 'Try NimoteCode on Android',
+    bottomCtaTitle: 'Try NimoteCode on Android and iOS',
     bottomCtaButton: 'Google Play',
-    iosNote: 'iOS is in App Store review — check current availability on the download page.',
+    iosNote: 'Download for iOS',
     externalLabel: 'opens in a new tab'
   },
   zh: {
@@ -483,14 +484,14 @@ export const comparisonCopy = {
     methodologyBody: '本对比基于公开的官方文档、产品官网、应用商店信息与项目仓库整理而成。功能可能随时间变化。',
     methodologyLastReviewed: '最后核实：2026 年 9 月',
     disclaimer:
-      '功能和平台支持可能随版本变化。本对比最后核实于 2026 年 9 月 9 日，信息来源于各产品官方网站、官方文档及应用商店公开信息。',
+      '功能和平台支持可能随版本变化。本对比最后核实于 2026 年 9 月 12 日，信息来源于各产品官方网站、官方文档及应用商店公开信息。',
     verifiedLabel: '最后核实',
     midCtaTitle: '需要的不止是终端？',
-    midCtaBody: '体验集代码编辑、SSH、Git、终端与 AI 于一体的完整移动开发工作区。',
+    midCtaBody: '体验集代码编辑、Android 本地 Linux、SSH、Git、终端与 AI 于一体的完整移动开发工作区。',
     midCtaButton: '了解 NimoteCode',
-    bottomCtaTitle: '在 Android 上试用 NimoteCode',
+    bottomCtaTitle: '在 Android 与 iOS 上试用 NimoteCode',
     bottomCtaButton: 'Google Play',
-    iosNote: 'iOS 正在 App Store 审核中——请在下载页查看当前可用性。',
+    iosNote: '下载 iOS 版',
     externalLabel: '在新标签页打开'
   }
 } as const

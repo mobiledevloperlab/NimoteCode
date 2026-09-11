@@ -1,17 +1,17 @@
 ---
 title: NimoteCode 常见问题 | 移动 IDE
-description: 快速了解 NimoteCode 的本地与 SSH 工作区、AI Provider、Git Source Control、远程 Tasks 和 Pro 功能。
+description: 快速了解 NimoteCode 的本地、Android 本地 Linux 与 SSH 工作区、AI Provider、Git Source Control、远程 Tasks 和 Pro 功能。
 ---
 
 # 常见问题
 
 ## NimoteCode 只是 SSH Client 吗？
 
-不是。NimoteCode 可打开本地项目或 SSH 工作区，并将 Explorer、编辑器、Terminal、Git 工作流、AI 协助与诊断面板放到同一项目上下文中。
+不是。NimoteCode 可打开本地项目、使用 Android 本地 Linux 或连接 SSH 工作区，并将 Explorer、编辑器、Terminal、Git 工作流、AI 协助与诊断面板放到同一项目上下文中。
 
 ## 不购买 Pro 能使用吗？
 
-可以。免费版包含本地与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。AI Agent 与远程内容搜索可在按设备计算的 14 天试用期间使用，也可通过 Pro 使用；详见 [Pro](/zh/pro)。
+可以。免费版包含本地、Android 本地 Linux 与 SSH 工作区、编辑器、基础终端、AI Chat 和基础 Tasks。本地 Linux 需要 Android 8+ 的 ARM64 或 x86_64 64 位设备，iOS 不提供此功能。AI Agent 与远程内容搜索可在按设备计算的 14 天试用期间使用，也可通过 Pro 使用；详见 [Pro](/zh/pro)。
 
 ## 可配置哪些 AI Provider？
 
